@@ -66,15 +66,27 @@ async function CrudShowcase() {
   const session = await getServerAuthSession();
   if (!session?.user) return null;
 
-  const latestPost = await api.post.getLatest();
+  const latestPost = await api.post.getSecretMessage();
+  const latestFivePosts = await api.post.getLatestFivePosts();
 
   return (
     <div className="w-full max-w-xs">
       {latestPost ? (
-        <p className="truncate">Your most recent post: {latestPost.name}</p>
+        <p className="truncate">Your most recent post: {latestPost}</p>
       ) : (
         <p>You have no posts yet.</p>
       )}
+
+      <div>
+        <h3 className="text-xl font-bold">Latest Posts:</h3>
+        <ul>
+          {latestFivePosts.map((post, index) => (
+            <li key={index} className="truncate">
+              {post.name}
+            </li>
+          ))}
+        </ul>
+      </div>
 
       <CreatePost />
     </div>

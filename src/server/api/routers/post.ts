@@ -29,6 +29,13 @@ export const postRouter = createTRPCRouter({
       });
     }),
 
+  getLatestFivePosts: protectedProcedure.query(({ ctx }) => {
+    return ctx.db.post.findMany({
+      take: 5,
+      orderBy: { createdAt: "desc" },
+    });
+  }),
+
   getLatest: protectedProcedure.query(({ ctx }) => {
     return ctx.db.post.findFirst({
       orderBy: { createdAt: "desc" },
