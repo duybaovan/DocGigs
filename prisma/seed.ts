@@ -21,16 +21,15 @@ async function main() {
     {
       companyName: "10/10 Doctors Surveys",
       description: "Conducting surveys among medical professionals",
-      locationId: 1, // Replace with the actual location ID
+      locationId: 1,
       hourlyPay: 30,
     },
     {
       companyName: "Physicians Side Gig FB",
       description: "Managing a Facebook group for physicians' side jobs",
-      locationId: 2, // Replace with the actual location ID
+      locationId: 2,
       hourlyPay: 40,
     },
-    // ... add more gigs as needed
   ];
 
   for (const gig of gigs) {

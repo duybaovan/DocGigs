@@ -11,7 +11,7 @@ import {
   CardTitle,
 } from "~/components/ui/card";
 import { ScrollArea } from "~/components/ui/scroll-area";
-import { buttonVariants } from "~/components/ui/button";
+import { Button, buttonVariants } from "~/components/ui/button";
 import { cn } from "~/lib/utils";
 
 export default async function Home() {
@@ -44,14 +44,17 @@ async function GigJobBoard() {
     <ScrollArea className="h-full w-full">
       {latestGigs.map((gig, index) => (
         <Card key={index} className="mb-8 w-full">
-          <CardHeader className="font-bold">
-            <CardTitle>{gig.companyName}</CardTitle>
+          <CardHeader className="flex flex-row justify-between font-bold">
+            <CardTitle>{gig.companyName}</CardTitle>${gig.hourlyPay} / hr
           </CardHeader>
           <CardContent>
             {" "}
             <CardDescription>{gig.description}</CardDescription>
           </CardContent>
-          <CardFooter> {gig.hourlyPay} </CardFooter>
+          <CardFooter className="flex justify-between">
+            {gig.location.city}, {gig.location.state}
+            <Button variant="outline">Apply</Button>
+          </CardFooter>
         </Card>
       ))}
     </ScrollArea>

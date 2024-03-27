@@ -9,6 +9,9 @@ export const gigRouter = createTRPCRouter({
   getPublicGigs: publicProcedure.query(({ ctx }) => {
     // Assuming all gigs are public for this example
     return ctx.db.gig.findMany({
+      include: {
+        location: true, // Include location data
+      },
       orderBy: { createdAt: "desc" },
     });
   }),
@@ -22,6 +25,9 @@ export const gigRouter = createTRPCRouter({
             id: ctx.session.user.id,
           },
         },
+      },
+      include: {
+        location: true, // Include location data
       },
       orderBy: { createdAt: "desc" },
     });
