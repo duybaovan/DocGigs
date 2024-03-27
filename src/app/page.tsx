@@ -1,26 +1,35 @@
 import Link from "next/link";
 
-import { CreatePost } from "~/app/_components/create-post";
 import { getServerAuthSession } from "~/server/auth";
 import { api } from "~/trpc/server";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "~/components/ui/card";
+import { ScrollArea } from "~/components/ui/scroll-area";
+import { buttonVariants } from "~/components/ui/button";
+import { cn } from "~/lib/utils";
 
 export default async function Home() {
   const session = await getServerAuthSession();
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-slate-50">
       <Link
         href={session ? "/api/auth/signout" : "/api/auth/signin"}
-        className="absolute right-4 top-4 rounded-full bg-white/10 px-10 py-3 font-semibold no-underline transition hover:bg-white/20"
+        className={cn(
+          "absolute right-4 top-4",
+          buttonVariants({ variant: "outline" }),
+        )}
       >
         {session ? "Sign out" : "Sign in"}
       </Link>
-      <div className="container flex flex-row items-center justify-center gap-12 px-4 py-16 ">
-        <div className="flex flex-col items-center gap-2">
-          <div className="flex flex-col items-center justify-center gap-4">
-            {session && <GigJobBoard />}
-          </div>
-        </div>
+      <div className="container flex flex-row items-center justify-center">
+        {session && <GigJobBoard />}
       </div>
     </main>
   );
@@ -32,18 +41,19 @@ async function GigJobBoard() {
 
   const latestGigs = await api.gig.getPublicGigs();
   return (
-    <div className="w-full max-w-xs">
-      <div>
-        <h3 className="text-xl font-bold">Gigs for Doctors:</h3>
-        <ul>
-          {latestGigs.map((gig, index) => (
-            <li key={index} className="truncate">
-              {gig.companyName}
-              {gig.description}
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
+    <ScrollArea className="h-full w-full">
+      {latestGigs.map((gig, index) => (
+        <Card key={index} className="mb-8 w-full">
+          <CardHeader className="font-bold">
+            <CardTitle>{gig.companyName}</CardTitle>
+          </CardHeader>
+          <CardContent>
+            {" "}
+            <CardDescription>{gig.description}</CardDescription>
+          </CardContent>
+          <CardFooter> {gig.hourlyPay} </CardFooter>
+        </Card>
+      ))}
+    </ScrollArea>
   );
 }
