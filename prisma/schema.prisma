@@ -28,7 +28,8 @@ model Gig {
     description String
     locationId  Int
     location    Location @relation(fields: [locationId], references: [id])
-    users       User[]   @relation("UserGigs") 
+    users       User[]   @relation("UserGigs")
+    hourlyPay   Int
     savedByUsers SavedGig[]
 }
 
