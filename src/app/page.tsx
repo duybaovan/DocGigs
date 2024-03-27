@@ -13,12 +13,21 @@ import {
 import { ScrollArea } from "~/components/ui/scroll-area";
 import { Button, buttonVariants } from "~/components/ui/button";
 import { cn } from "~/lib/utils";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "~/components/ui/dialog";
+import LoginDialog from "./_components/login-dialog";
 
 export default async function Home() {
   const session = await getServerAuthSession();
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-slate-50">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-slate-50 pt-16">
       <Link
         href={session ? "/api/auth/signout" : "/api/auth/signin"}
         className={cn(
@@ -28,7 +37,7 @@ export default async function Home() {
       >
         {session ? "Sign out" : "Sign in"}
       </Link>
-      <div className="container flex flex-row items-center justify-center">
+      <div className="container mt-4 flex flex-row items-center justify-center">
         {session && <GigJobBoard />}
       </div>
     </main>
@@ -53,7 +62,20 @@ async function GigJobBoard() {
           </CardContent>
           <CardFooter className="flex justify-between">
             {gig.location.city}, {gig.location.state}
-            <Button variant="outline">Apply</Button>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button variant="outline">Apply</Button>
+              </DialogTrigger>
+              <DialogContent className="mx-auto sm:max-w-[425px]">
+                <DialogHeader>
+                  <DialogTitle className="text-center">Sign In</DialogTitle>
+                  <DialogDescription className="mx-auto text-center">
+                    to start earning money
+                  </DialogDescription>
+                </DialogHeader>
+                <LoginDialog />
+              </DialogContent>{" "}
+            </Dialog>
           </CardFooter>
         </Card>
       ))}
