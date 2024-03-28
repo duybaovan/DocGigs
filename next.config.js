@@ -5,6 +5,19 @@
 await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
-const config = {};
+
+const redirects = async () => {
+  return [
+    {
+      source: "/",
+      destination: "/home",
+      permanent: true,
+    },
+  ];
+};
+
+const config = {
+  redirects,
+};
 
 export default config;

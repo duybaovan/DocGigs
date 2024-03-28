@@ -15,7 +15,7 @@ export const metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
-export default function RootLayout({
+export default function JobsLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-background min-h-screen font-sans ${inter.variable} antialiased`}
+        className={`min-h-screen bg-background font-sans ${inter.variable} antialiased`}
       >
         <TRPCReactProvider>{children}</TRPCReactProvider>
       </body>

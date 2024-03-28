@@ -3,15 +3,53 @@ import React from "react";
 import { signIn } from "next-auth/react";
 import { FaGoogle, FaDiscord } from "react-icons/fa";
 import { Button } from "~/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "~/components/ui/dialog";
+import { redirect } from "next/dist/server/api-utils";
 
-const LoginDialog: React.FC = () => {
+interface LoginDialogButtonProps {
+  buttonTitle: string;
+  className?: string;
+}
+
+export const LoginDialogButton: React.FC<LoginDialogButtonProps> = ({
+  buttonTitle,
+  className,
+}) => {
+  return (
+    <Dialog>
+      <DialogTrigger asChild>
+        <Button className={className} variant="outline">
+          {buttonTitle}
+        </Button>
+      </DialogTrigger>
+      <DialogContent className="mx-auto sm:max-w-[425px]">
+        <DialogHeader>
+          <DialogTitle className="text-center">Sign In</DialogTitle>
+          <DialogDescription className="mx-auto text-center">
+            to start earning money
+          </DialogDescription>
+        </DialogHeader>
+        <LoginDialog />
+      </DialogContent>{" "}
+    </Dialog>
+  );
+};
+
+export const LoginDialog: React.FC = () => {
   return (
     <div className="space-y-4">
       <div>
         <Button
           variant="secondary"
           className="w-full px-3 py-3"
-          onClick={() => signIn("google")}
+          onClick={() => signIn("google", { callbackUrl: "/jobs" })}
         >
           <FaGoogle className="mr-4 inline text-lg" color="#DB4437" />
           Continue with Google
@@ -41,5 +79,3 @@ const LoginDialog: React.FC = () => {
     </div>
   );
 };
-
-export default LoginDialog;

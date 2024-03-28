@@ -48,6 +48,12 @@ export const authOptions: NextAuthOptions = {
     }),
   },
   adapter: PrismaAdapter(db) as Adapter,
+  theme: {
+    colorScheme: "light",
+  },
+  pages: {
+    signIn: "/jobs",
+  },
   providers: [
     DiscordProvider({
       clientId: env.DISCORD_CLIENT_ID,

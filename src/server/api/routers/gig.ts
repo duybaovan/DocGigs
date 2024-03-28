@@ -7,12 +7,13 @@ import {
 
 export const gigRouter = createTRPCRouter({
   getPublicGigs: publicProcedure.query(({ ctx }) => {
-    // Assuming all gigs are public for this example
+    // Only return 5 gigs
     return ctx.db.gig.findMany({
       include: {
         location: true, // Include location data
       },
       orderBy: { createdAt: "desc" },
+      take: 5,
     });
   }),
 
