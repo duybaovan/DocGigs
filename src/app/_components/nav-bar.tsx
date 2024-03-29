@@ -60,6 +60,15 @@ export function NavigationMenuBar({
     <nav className="flex h-16 items-center justify-between bg-white px-8 text-black">
       <NavigationMenu className="flex w-full justify-between">
         <NavigationMenuList>
+          {isAuthenticated && (
+            <NavigationMenuItem>
+              <Link href="/jobs" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Job Board
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+          )}
           <NavigationMenuItem>
             <NavigationMenuTrigger>Physicians</NavigationMenuTrigger>
             <NavigationMenuContent>
@@ -101,13 +110,6 @@ export function NavigationMenuBar({
                 ))}
               </ul>
             </NavigationMenuContent>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-            <Link href="/jobs" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Job Board
-              </NavigationMenuLink>
-            </Link>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>

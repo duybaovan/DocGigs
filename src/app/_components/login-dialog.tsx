@@ -33,7 +33,7 @@ export const LoginDialogButton: React.FC<LoginDialogButtonProps> = ({
         <DialogHeader>
           <DialogTitle className="text-center">Sign In</DialogTitle>
           <DialogDescription className="mx-auto text-center">
-            to start earning money
+            Join the DocGigs community
           </DialogDescription>
         </DialogHeader>
         <LoginDialog />
