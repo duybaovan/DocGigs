@@ -15,7 +15,7 @@ export default function VerifyPageLayout({
         className="w-full"
         style={{ position: "sticky", top: 0, zIndex: 1000 }}
       >
-        <NavigationMenuBar isAuthenticated={true} />
+        <NavigationMenuBar isAuthenticated={false} />
       </div>
       <SessionProvider>{children}</SessionProvider>
     </section>

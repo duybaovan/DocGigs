@@ -11,21 +11,29 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "~/components/ui/dialog";
-import { redirect } from "next/dist/server/api-utils";
 
 interface LoginDialogButtonProps {
   buttonTitle: string;
   className?: string;
+  variant?:
+    | "default"
+    | "destructive"
+    | "outline"
+    | "secondary"
+    | "ghost"
+    | "link"
+    | null
+    | undefined;
 }
-
 export const LoginDialogButton: React.FC<LoginDialogButtonProps> = ({
   buttonTitle,
   className,
+  variant,
 }) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className={className} variant="outline">
+        <Button className={className} variant={variant}>
           {buttonTitle}
         </Button>
       </DialogTrigger>
@@ -49,7 +57,7 @@ export const LoginDialog: React.FC = () => {
         <Button
           variant="secondary"
           className="w-full px-3 py-3"
-          onClick={() => signIn("google", { callbackUrl: "/jobs" })}
+          onClick={() => signIn("google", { callbackUrl: "/doc_verify" })}
         >
           <FaGoogle className="mr-4 inline text-lg" color="#DB4437" />
           Continue with Google
@@ -58,7 +66,7 @@ export const LoginDialog: React.FC = () => {
       <div>
         <Button
           variant="secondary"
-          onClick={() => signIn("discord")}
+          onClick={() => signIn("discord", { callbackUrl: "/doc_verify" })}
           className="w-full px-3 py-3"
         >
           <FaDiscord className="mr-4 inline text-lg" color="#7289da" />

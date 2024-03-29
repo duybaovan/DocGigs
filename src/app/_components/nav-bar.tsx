@@ -20,7 +20,6 @@ import {
   DropdownMenuTrigger,
 } from "~/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "~/components/ui/avatar";
-import { buttonVariants } from "~/components/ui/button";
 import { LoginDialogButton } from "./login-dialog";
 
 const hospitalBenefits: { title: string; href: string; description: string }[] =

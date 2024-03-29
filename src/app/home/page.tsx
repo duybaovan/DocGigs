@@ -4,6 +4,7 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { PartialGigJobBoard } from "../_components/gig-job-board";
 import { Button } from "~/components/ui/button";
+import { LoginDialogButton } from "../_components/login-dialog";
 
 export default function Home() {
   const { status } = useSession();
@@ -28,8 +29,7 @@ export default function Home() {
           <span className="font-semibold">$20,000</span> last year from home
         </p>
         <div className="mt-8">
-          <Button className="mr-8">Get Started</Button>
-          <Button>See Jobs</Button>
+          <LoginDialogButton buttonTitle={"Get Started"} />
         </div>
       </div>
       <div className="container mx-auto px-4">
