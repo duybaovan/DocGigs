@@ -1,20 +1,12 @@
 "use client";
-import { useEffect } from "react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { PartialGigJobBoard } from "../_components/gig-job-board";
-import { Button } from "~/components/ui/button";
 import { LoginDialogButton } from "../_components/login-dialog";
 
 export default function Home() {
   const { status } = useSession();
   const router = useRouter();
-
-  useEffect(() => {
-    if (status === "authenticated") {
-      router.push("/jobs");
-    }
-  }, [status, router]);
 
   return (
     <main className="min-h-screen bg-slate-50">

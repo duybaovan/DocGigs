@@ -12,35 +12,139 @@ import {
 } from "~/components/ui/card";
 import { Input } from "~/components/ui/input";
 import { Label } from "~/components/ui/label";
+import type { NPIInformation } from "~/server/api/routers/public_api";
+import { trpc } from "~/utils/trpc";
 
 const VerifyPhysicianCredentials: React.FC = () => {
   const [npiNumber, setNpiNumber] = useState("");
-  const [isVerified, setIsVerified] = useState(false);
+  const [npiInfo, setNpiInfo] = useState<NPIInformation>();
+  const npiQuery = trpc.public_api.getNPIInformation.useQuery(
+    { npiNumber: parseInt(npiNumber, 10) },
+    {
+      enabled: false,
+    },
+  );
 
   const handleNPIChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setNpiNumber(event.target.value);
   };
 
-  const handleVerification = () => {
+  const handleVerification = async () => {
     if (npiNumber.length === 10) {
-      setIsVerified(true);
+      try {
+        const result = await npiQuery.refetch();
+        setNpiInfo(result.data?.results[0]);
+      } catch (error) {
+        console.error("Failed to fetch NPI information:", error);
+      }
     }
   };
 
   return (
     <main>
       <Card className="mx-auto mt-12 max-w-lg p-12">
-        {isVerified ? (
+        {npiInfo ? (
           <>
+            {" "}
             <CardHeader>
-              <CardTitle>Sign Up Complete</CardTitle>
+              <CardTitle>Verify your information</CardTitle>
             </CardHeader>
             <CardContent>
-              <CardDescription>
-                Your NPI number has been submitted for verification. We will let
-                you know as soon as your profile is verified.
-              </CardDescription>
-            </CardContent>
+              <div className="mb-4">
+                <Label className="Label-sm Label-gray-700 mb-2 block font-medium">
+                  Full Name
+                </Label>
+                <p>
+                  {npiInfo.basic.name_prefix &&
+                  npiInfo.basic.name_prefix !== "--"
+                    ? `${npiInfo.basic.name_prefix} `
+                    : ""}{" "}
+                  {npiInfo.basic.first_name}{" "}
+                  {npiInfo.basic.middle_name
+                    ? ` ${npiInfo.basic.middle_name}`
+                    : ""}
+                  {npiInfo.basic.last_name}{" "}
+                  {npiInfo.basic.name_suffix &&
+                  npiInfo.basic.name_suffix !== "--"
+                    ? ` ${npiInfo.basic.name_suffix}`
+                    : ""}
+                </p>
+              </div>
+              <div className="mb-4">
+                <Label className="Label-sm Label-gray-700 mb-2 block font-medium">
+                  Credential
+                </Label>
+                <p>{npiInfo.basic.credential}</p>
+              </div>
+              <div className="mb-4">
+                <Label className="Label-sm Label-gray-700 mb-2 block font-medium">
+                  Gender
+                </Label>
+                <p>{npiInfo.basic.gender === "M" ? "Male" : "Female"}</p>
+              </div>
+              <div className="mb-4">
+                <Label className="Label-sm Label-gray-700 mb-2 block font-medium">
+                  NPI Number
+                </Label>
+                <p>{npiInfo.number}</p>
+              </div>
+              <div className="mb-4">
+                <Label className="Label-sm Label-gray-700 mb-2 block font-medium">
+                  Enumeration Date
+                </Label>
+                <p>{npiInfo.basic.enumeration_date}</p>
+              </div>
+              <div className="mb-4">
+                <Label className="Label-sm Label-gray-700 mb-2 block font-medium">
+                  Last Updated Date
+                </Label>
+                <p>{npiInfo.basic.last_updated}</p>
+              </div>
+              <div className="mb-4">
+                <Label className="Label-sm Label-gray-700 mb-2 block font-medium">
+                  Addresses
+                </Label>
+                {npiInfo.addresses.map((address, index) => (
+                  <p className="mb-4" key={index}>
+                    {address.address_1} <br /> {address.city}, {address.state},{" "}
+                    {address.postal_code} <br />
+                    {address.country_name}, {address.telephone_number} (
+                    {address.address_purpose})
+                  </p>
+                ))}
+              </div>
+              <div className="mb-4">
+                <Label className="Label-sm Label-gray-700 mb-2 block font-medium">
+                  Taxonomies
+                </Label>
+                {npiInfo.taxonomies.map((taxonomy, index) => (
+                  <p className="mb-4" key={index}>
+                    {taxonomy.code} {taxonomy.desc} <br />
+                    {taxonomy.state} <br />
+                  </p>
+                ))}
+              </div>
+              {/* {JSON.stringify(npiInfo)} */}
+
+              <div className="mb-6 flex space-x-4">
+                <Button
+                  onClick={handleVerification}
+                  className={buttonVariants({ variant: "default" })}
+                >
+                  {"Edit info"}
+                </Button>
+                <Button
+                  onClick={handleVerification}
+                  className={buttonVariants({ variant: "default" })}
+                >
+                  {"Looks good"}
+                </Button>
+
+                <Link href="/doc_upload" legacyBehavior passHref>
+                  Looks good
+                </Link>
+              </div>
+            </CardContent>{" "}
           </>
         ) : (
           <>
@@ -72,7 +176,7 @@ const VerifyPhysicianCredentials: React.FC = () => {
                   onClick={handleVerification}
                   className={buttonVariants({ variant: "default" })}
                 >
-                  Next
+                  {npiQuery.isLoading ? "Loading..." : "Next"}
                 </Button>
               </div>
             </CardContent>

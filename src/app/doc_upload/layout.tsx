@@ -4,7 +4,7 @@ import React from "react";
 import { SessionProvider } from "next-auth/react";
 import { NavigationMenuBar } from "../_components/nav-bar";
 
-export default function VerifyPageLayout({
+export default function DocUploadPageLayout({
   children,
 }: {
   children: React.ReactNode;

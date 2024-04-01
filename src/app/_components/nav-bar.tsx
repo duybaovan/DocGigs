@@ -21,6 +21,8 @@ import {
 } from "~/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "~/components/ui/avatar";
 import { LoginDialogButton } from "./login-dialog";
+import { Button } from "~/components/ui/button";
+import { signOut } from "next-auth/react";
 
 const hospitalBenefits: { title: string; href: string; description: string }[] =
   [
@@ -55,6 +57,10 @@ export function NavigationMenuBar({
 }: {
   isAuthenticated: boolean;
 }) {
+  const handleLogout = () => {
+    () => signOut({ callbackUrl: "/home" });
+  };
+
   return (
     <nav className="flex h-16 items-center justify-between bg-white px-8 text-black">
       <NavigationMenu className="flex w-full justify-between">
@@ -123,7 +129,7 @@ export function NavigationMenuBar({
           </DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuItem>
-              <Link href={"/api/auth/signout"}>{"Sign out"}</Link>
+              <Button onClick={handleLogout}>{"Sign out"}</Button>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
