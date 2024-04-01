@@ -5,6 +5,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "~/components/ui/card";
 import Uppy from "@uppy/core";
 import Webcam from "@uppy/webcam";
 import { Dashboard } from "@uppy/react";
+import RemoteSources from "@uppy/remote-sources";
 
 import "@uppy/core/dist/style.min.css";
 import "@uppy/dashboard/dist/style.min.css";
@@ -22,7 +23,9 @@ const requiredDocuments = [
 
 const DocUploadPage: React.FC = () => {
   const [uploadedFiles, setUploadedFiles] = useState<string[]>([]);
-  const uppy = new Uppy().use(Webcam);
+  const uppy = new Uppy()
+    .use(Webcam)
+    .use(RemoteSources, { companionUrl: "https://your-companion-url" });
 
   const isFileUploaded = (documentName: string) => {
     // Determine if the file corresponding to the documentName has been uploaded
@@ -34,7 +37,7 @@ const DocUploadPage: React.FC = () => {
     <main>
       <Card className="mx-auto mt-12 max-w-xl p-12 shadow">
         <CardHeader>
-          <CardTitle>Locum Tenes Credentialing</CardTitle>
+          <CardTitle className="text-xl">Locum Tenes Credentialing</CardTitle>
         </CardHeader>
         <CardContent>
           <ul>
@@ -47,7 +50,7 @@ const DocUploadPage: React.FC = () => {
                 >
                   {isFileUploaded(document) ? "✔" : "✘"}
                 </span>
-                {document}
+                {" " + document}
               </li>
             ))}
           </ul>
