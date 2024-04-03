@@ -106,13 +106,46 @@ const ProviderCard: React.FC<{ provider: Provider }> = ({ provider }) => {
         <CardTitle className="flex justify-between text-lg">
           {provider.name}
           <div>
+            <Button className="ml-auto mr-4">Save to PDF</Button>
             <Button className="ml-auto mr-4">Edit Profile</Button>
             <Button className="ml-auto">Next</Button>
           </div>
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <Label className="mb-2 font-bold">NPI</Label>
+        <ul>
+          <li>
+            <span>✅ </span>
+            <strong>Board Certification:</strong> Board-certified in internal
+            medicine, indicating a high level of proficiency and expertise in
+            his primary specialty.
+          </li>
+          <li>
+            <span>✅ </span>
+            <strong>Active Licenses and Insurance:</strong> Maintains active
+            state medical licenses and DEA registration, along with current
+            liability insurance, ensuring he meets basic regulatory and legal
+            requirements for practice.
+          </li>
+          <li>
+            <span>✅ </span>
+            <strong>Work Experience:</strong> Ongoing role as an attending
+            physician at Cedars-Sinai Medical Center showcases his capability
+            and trustworthiness in a clinical setting, backed by years of
+            relevant experience.
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <span>⚠️ </span>
+            <strong>License and DEA Expirations:</strong> Several key
+            credentials are either expired or nearing expiration, including his
+            DEA license, California state license, and liability insurance.
+            These require immediate renewal to maintain compliance and ensure
+            uninterrupted practice.
+          </li>
+        </ul>
+        <Label className="mb-2 mt-4 font-bold">NPI</Label>
         <DocInfoRow
           headers={["Number", "Name", "Status", "Verified"]}
           values={[

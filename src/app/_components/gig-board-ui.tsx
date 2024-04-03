@@ -155,7 +155,7 @@ export const GigList: React.FC<GigListProps> = ({ gigs, isPartial }) => {
   return (
     <ScrollArea className="relative h-full w-full overflow-hidden">
       {gigs.map((gig, index) => (
-        <GigCard key={gig.id} gig={gig} />
+        <GigCard key={gig.id + index} gig={gig} />
       ))}
 
       {isPartial && (
