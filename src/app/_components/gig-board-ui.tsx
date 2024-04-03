@@ -19,26 +19,98 @@ import {
   DialogTrigger,
 } from "~/components/ui/dialog";
 import { Button } from "~/components/ui/button";
+import type { Gig, Location } from "@prisma/client";
 
 interface GigCardProps {
-  gig: {
-    companyName: string;
-    hourlyPay: number;
-    description: string;
-    location: {
-      city: string;
-      state: string;
-    };
-  };
+  gig: Gig & { location: Location };
 }
 
 export const GigCard: React.FC<GigCardProps> = ({ gig }) => (
   <Card className="mb-8 w-full">
     <CardHeader className="flex flex-row justify-between font-bold">
-      <CardTitle>{gig.companyName}</CardTitle>${gig.hourlyPay} / hr
+      <CardTitle>{gig.hospitalName}</CardTitle>${gig.hourlyPay} / hr
     </CardHeader>
     <CardContent>
       <CardDescription>{gig.description}</CardDescription>
+      <div className="mt-4 flex flex-wrap gap-2">
+        {gig.schedules && (
+          <span className="mr-2 rounded bg-blue-100 px-2.5 py-0.5 text-xs font-semibold text-blue-800">
+            Schedules: {gig.schedules}
+          </span>
+        )}
+        {gig.assignmentLength && (
+          <span className="mr-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-semibold text-green-800">
+            Assignment Length: {gig.assignmentLength}
+          </span>
+        )}
+        {gig.specialty && (
+          <span className="mr-2 rounded bg-red-100 px-2.5 py-0.5 text-xs font-semibold text-red-800">
+            Specialty: {gig.specialty}
+          </span>
+        )}
+        {gig.ehrSoftwareUsed && (
+          <span className="mr-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-semibold text-yellow-800">
+            EHR Software Used: {gig.ehrSoftwareUsed}
+          </span>
+        )}
+        {gig.payment && (
+          <span className="mr-2 rounded bg-purple-100 px-2.5 py-0.5 text-xs font-semibold text-purple-800">
+            Payment: {gig.payment}
+          </span>
+        )}
+        {gig.milesFromYou && (
+          <span className="mr-2 rounded bg-pink-100 px-2.5 py-0.5 text-xs font-semibold text-pink-800">
+            {gig.milesFromYou} miles from your location
+          </span>
+        )}
+        {gig.hospitalSize && (
+          <span className="mr-2 rounded bg-indigo-100 px-2.5 py-0.5 text-xs font-semibold text-indigo-800">
+            Hospital Size: {gig.hospitalSize} beds
+          </span>
+        )}
+        {gig.hospitalDescription && (
+          <span className="mr-2 rounded bg-gray-100 px-2.5 py-0.5 text-xs font-semibold text-gray-800">
+            Hospital Description: {gig.hospitalDescription}
+          </span>
+        )}
+        {gig.hospitalCertification && (
+          <span className="mr-2 rounded bg-orange-100 px-2.5 py-0.5 text-xs font-semibold text-orange-800">
+            Hospital Certification: {gig.hospitalCertification}
+          </span>
+        )}
+        {gig.hospitalStarRating && (
+          <span className="mr-2 rounded bg-teal-100 px-2.5 py-0.5 text-xs font-semibold text-teal-800">
+            Hospital Star Rating: {gig.hospitalStarRating}
+          </span>
+        )}
+        {gig.malpracticeCoverage && (
+          <span className="mr-2 rounded bg-lime-100 px-2.5 py-0.5 text-xs font-semibold text-lime-800">
+            {gig.malpracticeCoverage
+              ? "Malpractice Coverage Included"
+              : "No Malpractice Coverage"}
+          </span>
+        )}
+        {gig.shiftLength && (
+          <span className="mr-2 rounded bg-cyan-100 px-2.5 py-0.5 text-xs font-semibold text-cyan-800">
+            {gig.shiftLength}-hour shifts
+          </span>
+        )}
+        {gig.minimumRequirements && (
+          <span className="mr-2 rounded bg-amber-100 px-2.5 py-0.5 text-xs font-semibold text-amber-800">
+            {gig.minimumRequirements.join(", ")} required
+          </span>
+        )}
+        {gig.travel && (
+          <span className="mr-2 rounded bg-emerald-100 px-2.5 py-0.5 text-xs font-semibold text-emerald-800">
+            {gig.travel}
+          </span>
+        )}
+        {gig.reasonForLocumsNeed && (
+          <span className="mr-2 rounded bg-rose-100 px-2.5 py-0.5 text-xs font-semibold text-rose-800">
+            {gig.reasonForLocumsNeed}
+          </span>
+        )}
+      </div>
     </CardContent>
     <CardFooter className="flex justify-between">
       {gig.location.city}, {gig.location.state}
@@ -48,15 +120,7 @@ export const GigCard: React.FC<GigCardProps> = ({ gig }) => (
 );
 
 interface GigListProps {
-  gigs: Array<{
-    companyName: string;
-    hourlyPay: number;
-    description: string;
-    location: {
-      city: string;
-      state: string;
-    };
-  }>;
+  gigs: Array<Gig & { location: Location }>;
   isPartial?: boolean;
 }
 
@@ -93,18 +157,7 @@ export const GigList: React.FC<GigListProps> = ({ gigs, isPartial }) => {
   return (
     <ScrollArea className="relative h-full w-full overflow-hidden">
       {gigs.map((gig, index) => (
-        <Card key={index} className="mb-8 w-full">
-          <CardHeader className="flex flex-row justify-between font-bold">
-            <CardTitle>{gig.companyName}</CardTitle>${gig.hourlyPay} / hr
-          </CardHeader>
-          <CardContent>
-            <CardDescription>{gig.description}</CardDescription>
-          </CardContent>
-          <CardFooter className="flex justify-between">
-            {gig.location.city}, {gig.location.state}
-            <LoginDialogButton buttonTitle={"Apply"} />
-          </CardFooter>
-        </Card>
+        <GigCard key={gig.id} gig={gig} />
       ))}
 
       {isPartial && (

@@ -51,7 +51,7 @@ const VerifyPhysicianCredentials: React.FC = () => {
             </CardHeader>
             <CardContent>
               <div className="mb-4">
-                <Label className="Label-sm Label-gray-700 mb-2 block font-medium">
+                <Label className="Label-lg Label-gray-700 mb-2 block font-medium">
                   Full Name
                 </Label>
                 <p>
@@ -62,7 +62,7 @@ const VerifyPhysicianCredentials: React.FC = () => {
                   {npiInfo.basic.first_name}{" "}
                   {npiInfo.basic.middle_name
                     ? ` ${npiInfo.basic.middle_name}`
-                    : ""}
+                    : ""}{" "}
                   {npiInfo.basic.last_name}{" "}
                   {npiInfo.basic.name_suffix &&
                   npiInfo.basic.name_suffix !== "--"
@@ -133,14 +133,10 @@ const VerifyPhysicianCredentials: React.FC = () => {
                 >
                   {"Edit info"}
                 </Button>
-                <Button
-                  onClick={handleVerification}
+                <Link
+                  href="/doc_upload"
                   className={buttonVariants({ variant: "default" })}
                 >
-                  {"Looks good"}
-                </Button>
-
-                <Link href="/doc_upload" legacyBehavior passHref>
                   Looks good
                 </Link>
               </div>

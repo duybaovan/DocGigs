@@ -14,7 +14,6 @@ export const gigRouter = createTRPCRouter({
         include: {
           location: true, // Include location data
         },
-        orderBy: { createdAt: "desc" },
         take: input.take,
       });
     }),

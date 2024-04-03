@@ -21,16 +21,32 @@ model Location {
     gigs    Gig[]
 }
 model Gig {
-    id          Int      @id @default(autoincrement())
-    companyName String
-    createdAt   DateTime @default(now())
-    updatedAt   DateTime @updatedAt
-    description String
-    locationId  Int
-    location    Location @relation(fields: [locationId], references: [id])
-    users       User[]   @relation("UserGigs")
-    hourlyPay   Int
-    savedByUsers SavedGig[]
+    id                  Int      @id @default(autoincrement())
+    companyName         String
+    createdAt           DateTime @default(now())
+    updatedAt           DateTime @updatedAt
+    description         String
+    locationId          Int
+    location            Location @relation(fields: [locationId], references: [id])
+    users               User[]   @relation("UserGigs")
+    hourlyPay           Int
+    savedByUsers        SavedGig[]
+    schedules           String
+    assignmentLength    String
+    specialty           String
+    ehrSoftwareUsed     String
+    payment             String
+    milesFromYou        Int
+    hospitalName        String
+    hospitalSize        Int
+    hospitalDescription String
+    hospitalCertification String
+    hospitalStarRating  Int
+    malpracticeCoverage String
+    shiftLength         Int
+    minimumRequirements String[]
+    travel              String
+    reasonForLocumsNeed String
 }
 
 model SavedGig {
