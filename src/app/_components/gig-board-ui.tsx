@@ -112,7 +112,20 @@ export const GigCard: React.FC<GigCardProps> = ({ gig }) => (
       <Label>
         {gig.location.city}, {gig.location.state}
       </Label>
-      <LoginDialogButton buttonTitle={"Apply"} />
+      <Dialog>
+        <DialogTrigger asChild>
+          <Button>{"Sign Up"}</Button>
+        </DialogTrigger>
+        <DialogContent className="mx-auto sm:max-w-[425px]">
+          <DialogHeader>
+            <DialogTitle className="text-center">Sign In</DialogTitle>
+            <DialogDescription className="mx-auto text-center">
+              Join the DocGigs community
+            </DialogDescription>
+            {/* TODO: ADD CONFIRMATION PAGE HERE */}
+          </DialogHeader>
+        </DialogContent>
+      </Dialog>
     </CardFooter>
   </Card>
 );
