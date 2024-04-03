@@ -8,7 +8,7 @@ export function GigJobBoard() {
 }
 
 export function PartialGigJobBoard() {
-  const publicGigsQuery = trpc.gig.getGigs.useQuery({ take: 4 });
+  const publicGigsQuery = trpc.gig.getGigs.useQuery({ take: 8 });
 
   const latestGigs = publicGigsQuery.data ?? [];
   return <GigList gigs={latestGigs} isPartial={true} />;

@@ -20,6 +20,7 @@ import {
 } from "~/components/ui/dialog";
 import { Button } from "~/components/ui/button";
 import type { Gig, Location } from "@prisma/client";
+import { Label } from "~/components/ui/label";
 
 interface GigCardProps {
   gig: Gig & { location: Location };
@@ -31,11 +32,11 @@ export const GigCard: React.FC<GigCardProps> = ({ gig }) => (
       <CardTitle>{gig.hospitalName}</CardTitle>${gig.hourlyPay} / hr
     </CardHeader>
     <CardContent>
-      <CardDescription>{gig.description}</CardDescription>
+      <CardDescription>{gig.hospitalDescription}</CardDescription>
       <div className="mt-4 flex flex-wrap gap-2">
         {gig.schedules && (
           <span className="mr-2 rounded bg-blue-100 px-2.5 py-0.5 text-xs font-semibold text-blue-800">
-            Schedules: {gig.schedules}
+            {gig.schedules}
           </span>
         )}
         {gig.assignmentLength && (
@@ -50,7 +51,7 @@ export const GigCard: React.FC<GigCardProps> = ({ gig }) => (
         )}
         {gig.ehrSoftwareUsed && (
           <span className="mr-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-semibold text-yellow-800">
-            EHR Software Used: {gig.ehrSoftwareUsed}
+            EHR Software: {gig.ehrSoftwareUsed}
           </span>
         )}
         {gig.payment && (
@@ -68,14 +69,9 @@ export const GigCard: React.FC<GigCardProps> = ({ gig }) => (
             Hospital Size: {gig.hospitalSize} beds
           </span>
         )}
-        {gig.hospitalDescription && (
-          <span className="mr-2 rounded bg-gray-100 px-2.5 py-0.5 text-xs font-semibold text-gray-800">
-            Hospital Description: {gig.hospitalDescription}
-          </span>
-        )}
         {gig.hospitalCertification && (
           <span className="mr-2 rounded bg-orange-100 px-2.5 py-0.5 text-xs font-semibold text-orange-800">
-            Hospital Certification: {gig.hospitalCertification}
+            {gig.hospitalCertification} hospital
           </span>
         )}
         {gig.hospitalStarRating && (
@@ -102,7 +98,7 @@ export const GigCard: React.FC<GigCardProps> = ({ gig }) => (
         )}
         {gig.travel && (
           <span className="mr-2 rounded bg-emerald-100 px-2.5 py-0.5 text-xs font-semibold text-emerald-800">
-            {gig.travel}
+            Travel {gig.travel}
           </span>
         )}
         {gig.reasonForLocumsNeed && (
@@ -112,8 +108,10 @@ export const GigCard: React.FC<GigCardProps> = ({ gig }) => (
         )}
       </div>
     </CardContent>
-    <CardFooter className="flex justify-between">
-      {gig.location.city}, {gig.location.state}
+    <CardFooter className=" flex justify-between">
+      <Label>
+        {gig.location.city}, {gig.location.state}
+      </Label>
       <LoginDialogButton buttonTitle={"Apply"} />
     </CardFooter>
   </Card>

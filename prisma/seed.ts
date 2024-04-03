@@ -24,7 +24,7 @@ async function main() {
       description:
         "Participate in groundbreaking medical technology surveys that shape the future of healthcare. Provide valuable insights by engaging with various medical professionals and contribute to the advancement of medical devices and pharmaceuticals.",
       locationId: 1,
-      hourlyPay: 30,
+      hourlyPay: 375,
       schedules: "Weekdays",
       assignmentLength: "26 Weeks",
       specialty: "Cardiology",
@@ -52,7 +52,7 @@ async function main() {
       description:
         "Lead a team of researchers in conducting comprehensive studies on global health trends. Manage data collection, analysis, and reporting to support international health initiatives and policy development.",
       locationId: 2,
-      hourlyPay: 40,
+      hourlyPay: 350,
       schedules: "Weekends",
       assignmentLength: "13 weeks",
       specialty: "General Practice",
@@ -77,7 +77,7 @@ async function main() {
       description:
         "Join our team to revolutionize dental care through innovative research in dental equipment and patient care practices.",
       locationId: 3,
-      hourlyPay: 45,
+      hourlyPay: 400,
       schedules: "Flexible",
       assignmentLength: "12 Weeks",
       specialty: "Dentistry",
@@ -102,7 +102,7 @@ async function main() {
       description:
         "Contribute to the development of ophthalmic technologies and participate in clinical trials for new eye care treatments.",
       locationId: 4,
-      hourlyPay: 50,
+      hourlyPay: 450,
       schedules: "Weekdays",
       assignmentLength: "24 Weeks",
       specialty: "Ophthalmology",
@@ -130,7 +130,7 @@ async function main() {
       description:
         "Be part of a leading team in orthopedic surgery, contributing to the development of new surgical techniques and implants.",
       locationId: 5,
-      hourlyPay: 55,
+      hourlyPay: 395,
       schedules: "Weekdays and Weekends",
       assignmentLength: "18 Weeks",
       specialty: "Orthopedic Surgery",
@@ -158,7 +158,7 @@ async function main() {
       description:
         "Support pediatric care advancements by joining our research on pediatric diseases and child healthcare improvement strategies.",
       locationId: 6,
-      hourlyPay: 35,
+      hourlyPay: 425,
       schedules: "Flexible",
       assignmentLength: "20 Weeks",
       specialty: "Pediatrics",
@@ -186,7 +186,7 @@ async function main() {
       description:
         "Join a fast-paced environment and contribute to emergency medicine by providing critical care to patients in urgent need.",
       locationId: 7,
-      hourlyPay: 60,
+      hourlyPay: 500,
       schedules: "Rotating Shifts",
       assignmentLength: "22 Weeks",
       specialty: "Emergency Medicine",
@@ -214,7 +214,7 @@ async function main() {
       description:
         "Be at the forefront of neurology by engaging in clinical research and providing care for patients with neurological disorders.",
       locationId: 8,
-      hourlyPay: 65,
+      hourlyPay: 400,
       schedules: "Weekdays",
       assignmentLength: "30 Weeks",
       specialty: "Neurology",
