@@ -118,12 +118,34 @@ export const GigCard: React.FC<GigCardProps> = ({ gig }) => (
         </DialogTrigger>
         <DialogContent className="mx-auto sm:max-w-[425px]">
           <DialogHeader>
-            <DialogTitle className="text-center">Sign In</DialogTitle>
-            <DialogDescription className="mx-auto text-center">
-              Join the DocGigs community
+            <DialogTitle className="text-left">
+              Saint Luke's Medical Center Confirmation
+            </DialogTitle>
+            <DialogDescription>
+              {" "}
+              13-weeks locums program with 8-hour shift
             </DialogDescription>
-            {/* TODO: ADD CONFIRMATION PAGE HERE */}
           </DialogHeader>
+
+          <div className="text-left">
+            <p>
+              Dates: <strong>April 15, 2024 - June 30, 2024</strong>
+            </p>
+            <p>
+              Pay: <strong>$7,000 per shift</strong>
+            </p>
+            <p>
+              Service Fee (incl. malpractice coverage): <strong>$700</strong>
+            </p>
+            <p>
+              Estimated travel and mileage: <strong>$500</strong>
+            </p>
+            <p>
+              Take home pay:{" "}
+              <strong className="text-green-600">$123,600</strong>
+            </p>
+            <Button className="mt-8"> Get started</Button>
+          </div>
         </DialogContent>
       </Dialog>
     </CardFooter>
