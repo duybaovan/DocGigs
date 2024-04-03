@@ -148,7 +148,7 @@ const VerifyPhysicianCredentials: React.FC = () => {
               <CardTitle>Verify your physician credentials.</CardTitle>
               <CardDescription className="mb-4">
                 Please provide your NPI number to help us quickly verify your
-                credentials.
+                credentials. Example: 1609141886
               </CardDescription>
             </CardHeader>
             <CardContent>

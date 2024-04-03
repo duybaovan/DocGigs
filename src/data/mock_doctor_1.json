@@ -1,0 +1,64 @@
+{
+  "PersonalIdentifyingInformation": {
+    "FullName": "John A. Doe Jr.",
+    "SocialSecurityNumber": "123-45-6789",
+    "DateOfBirth": "01/02/1970",
+    "MedicareIdentificationNumber": "1A2B3C4D5E",
+    "NationalProviderIdentifier": "1234567890",
+    "FormerOrMaidenName": "N/A",
+    "OtherNamesUsedProfessionally": ["John Doe MD"]
+  },
+  "LicenseCertificationRegistrationInformation": {
+    "ActiveLicense": {
+      "Number": "LIC1234567",
+      "EffectiveDate": "01/01/2020",
+      "StateWhereIssued": "CA"
+    },
+    "Certification": {
+      "Number": "CERT1234567",
+      "EffectiveDate": "02/01/2020",
+      "CertifyingEntity": "Medical Board",
+      "StateWhereIssued": "CA"
+    },
+    "DEARegistration": {
+      "Number": "DEA1234567",
+      "EffectiveDate": "03/01/2020",
+      "StateWhereIssued": "CA"
+    },
+    "CompactLicense": "Yes"
+  },
+  "BusinessInformation": {
+    "BusinessName": "Doe Medical Practice",
+    "BusinessAddress": "1234 Healthcare Blvd, Suite 100, City, CA, 90000",
+    "TaxIdentificationNumber": "98-7654321",
+    "ReassignmentOfBenefits": "Yes",
+    "PrivatePracticeDetails": "Owner"
+  },
+  "PatientInformation": {
+    "AcceptingNewPatients": "Yes"
+  },
+  "SupportingDocumentation": {
+    "RequiredDocumentsSection12": ["Diploma", "Board Certification"],
+    "AdditionalDocumentsRequested": ["Insurance"]
+  },
+  "OtherInformation": {
+    "ChangesToMedicareEnrollment": "No",
+    "ManagingEmployees": ["Nurse Jane Doe", "Receptionist John Smith"],
+    "BillingAgency": "Billing Solutions, Inc."
+  },
+  "EmploymentInformation": {
+    "EmploymentStatus": "Independent",
+    "TreatingOwnPatients": "Yes"
+  },
+  "SpecialtyTypeInformation": {
+    "PrimarySpecialtyType": "Family Medicine",
+    "SecondarySpecialtyType": "General Practice",
+    "CertificationAndLicensingDetails": ["Board Certified in Family Medicine"],
+    "CompactLicense": "Yes"
+  },
+  "EligibleProfessionalOrNonPhysicianSpecialtyType": "Family Medicine",
+  "BillingAndCollectionRights": {
+    "RightToBill": "Yes",
+    "LocationOfPrivatePractice": "1234 Healthcare Blvd, Suite 100, City, CA, 90000"
+  }
+}

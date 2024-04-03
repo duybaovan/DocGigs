@@ -8,7 +8,7 @@ import {
   CardHeader,
   CardTitle,
 } from "~/components/ui/card";
-import { LoginDialog, LoginDialogButton } from "./login-dialog";
+import { LoginDialog } from "./login-dialog";
 import { ScrollArea } from "~/components/ui/scroll-area";
 import {
   Dialog,
@@ -119,7 +119,7 @@ export const GigCard: React.FC<GigCardProps> = ({ gig }) => (
         <DialogContent className="mx-auto sm:max-w-[425px]">
           <DialogHeader>
             <DialogTitle className="text-left">
-              Saint Luke's Medical Center Confirmation
+              {`Saint Luke's Medical Center Confirmation`}
             </DialogTitle>
             <DialogDescription>
               {" "}
