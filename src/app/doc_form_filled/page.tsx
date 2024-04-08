@@ -19,6 +19,7 @@ import ProviderCard from "../_components/demo-license";
 const DocUploadPage: React.FC = () => {
   const [demoStep, setDemoStep] = useState<number>(0);
   const [open, setOpen] = useState(false);
+
   const uppy = new Uppy()
     .use(Webcam)
     .use(RemoteSources, {

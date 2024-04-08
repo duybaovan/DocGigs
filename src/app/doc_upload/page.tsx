@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Card,
   CardHeader,
@@ -25,10 +25,39 @@ import "@uppy/dashboard/dist/style.min.css";
 import "@uppy/webcam/dist/style.min.css";
 import Link from "next/link";
 import { buttonVariants } from "~/components/ui/button";
+import VerificationSteps from "../_components/verification-steps";
+import type { VerificationStep } from "../_components/verification-steps";
+import { Label } from "~/components/ui/label";
 
 const DocUploadPage: React.FC = () => {
   const [demoStep, setDemoStep] = useState<number>(0);
   const [open, setOpen] = useState(false);
+  const [verificationComplete, setVerificationComplete] = useState(false);
+
+  const stepsData: VerificationStep[] = [
+    { label: "Verify medical credential", status: "pending" },
+    {
+      label: "Cross-check educational records",
+      status: "pending",
+    },
+    { label: "Verify malpractice document", status: "pending" },
+    { label: "Validate resume", status: "pending" },
+    { label: "Check all Expiry Dates", status: "pending" },
+  ];
+
+  useEffect(() => {
+    let timeout: NodeJS.Timeout;
+
+    if (open) {
+      timeout = setTimeout(() => {
+        setVerificationComplete(true);
+      }, 750 * 6); // 6 steps including the initial loading indicator
+    }
+
+    return () => {
+      if (timeout) clearTimeout(timeout);
+    };
+  }, [open]);
 
   const requiredDocuments = [
     "Medical License with NPI",
@@ -109,20 +138,24 @@ const DocUploadPage: React.FC = () => {
           <ul>
             {requiredDocuments.map((document, index) => (
               <li key={index}>
-                <span
-                  className={
-                    demoStep > 1 ||
+                {verificationComplete ? (
+                  <span
+                    className={
+                      demoStep > 1 ||
+                      (demoStep === 1 && document !== "State License (Expired)")
+                        ? "text-green-700"
+                        : "text-red-700"
+                    }
+                  >
+                    {demoStep > 1 ||
                     (demoStep === 1 && document !== "State License (Expired)")
-                      ? "text-green-500"
-                      : "text-red-500"
-                  }
-                >
-                  {demoStep > 1 ||
-                  (demoStep === 1 && document !== "State License (Expired)")
-                    ? "✔"
-                    : "✘"}
-                </span>
-                {"  " + document}
+                      ? "✔ "
+                      : "✘ "}
+                  </span>
+                ) : (
+                  <span className={"text-yellow-500"}>○</span>
+                )}
+                <Label>{"  " + document}</Label>
               </li>
             ))}
           </ul>
@@ -150,18 +183,31 @@ const DocUploadPage: React.FC = () => {
       </Card>
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="mx-auto sm:max-w-[425px]">
-          <DialogHeader>
-            <DialogTitle className="text-center">
-              {" "}
-              {demoStep == 1 ? "Expired State License Detected" : "Success"}
-            </DialogTitle>
-          </DialogHeader>
-          <DialogDescription className="text-center">
-            {demoStep == 1
-              ? `The state license uploaded is expired. Please upload a valid state
-            license.`
-              : "Congratulations. All your documents have been processed successfully."}
-          </DialogDescription>
+          {!verificationComplete ? (
+            <>
+              <DialogHeader>
+                <DialogTitle className="text-center">
+                  AI Credentialing In Progress
+                </DialogTitle>
+              </DialogHeader>
+              <VerificationSteps initialStepsData={stepsData} />
+            </>
+          ) : (
+            <>
+              <DialogHeader>
+                <DialogTitle className="text-center">
+                  {demoStep === 1
+                    ? "Expired State License Detected"
+                    : "Success"}
+                </DialogTitle>
+              </DialogHeader>
+              <DialogDescription className="text-center">
+                {demoStep === 1
+                  ? "The state license uploaded is expired. Please upload a valid state license."
+                  : "Congratulations. All your documents have been processed successfully."}
+              </DialogDescription>
+            </>
+          )}
         </DialogContent>
       </Dialog>
     </main>

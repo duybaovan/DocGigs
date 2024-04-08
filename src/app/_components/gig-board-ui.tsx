@@ -132,17 +132,13 @@ export const GigCard: React.FC<GigCardProps> = ({ gig }) => (
               Dates: <strong>April 15, 2024 - June 30, 2024</strong>
             </p>
             <p>
-              Pay: <strong>$7,000 per shift</strong>
+              Pay: <strong>$2,800 per shift</strong>
             </p>
             <p>
-              Service Fee (incl. malpractice coverage): <strong>$700</strong>
+              Service Fee (incl. malpractice coverage): <strong>$425</strong>
             </p>
             <p>
-              Estimated travel and mileage: <strong>$500</strong>
-            </p>
-            <p>
-              Take home pay:{" "}
-              <strong className="text-green-600">$123,600</strong>
+              Take home pay: <strong className="text-green-600">$30,875</strong>
             </p>
             <Button className="mt-8"> Get started</Button>
           </div>
