@@ -4,6 +4,7 @@ import { Label } from "~/components/ui/label";
 export interface VerificationStep {
   label: string;
   status: "pending" | "verified" | "error";
+  endState?: "pending" | "verified" | "error";
 }
 
 interface VerificationStepsProps {
@@ -16,18 +17,22 @@ const VerificationSteps: React.FC<VerificationStepsProps> = ({
   const [steps, setSteps] = useState<VerificationStep[]>(initialStepsData);
 
   useEffect(() => {
-    const timeouts = steps.map((_, index) =>
+    const timeouts = steps.map((step, index) =>
       setTimeout(
         () => {
           setSteps((prevSteps) =>
-            prevSteps.map((step, stepIndex) => {
+            prevSteps.map((prevStep, stepIndex) => {
               if (stepIndex === index) {
+                // Check if forceStatus is provided, otherwise set to verified or error based on index
+                const status =
+                  step.endState ??
+                  (stepIndex === steps.length - 1 ? "error" : "verified");
                 return {
-                  ...step,
-                  status: stepIndex === steps.length - 1 ? "error" : "verified",
+                  ...prevStep,
+                  status: status,
                 };
               }
-              return step;
+              return prevStep;
             }),
           );
         },

@@ -23,16 +23,19 @@ const PdfUploader: React.FC = () => {
       status: "pending",
     },
     { label: "Fill out misc fields", status: "pending" },
-    { label: "Generate new form", status: "pending" },
+    { label: "Generate new form", status: "pending", endState: "verified" },
   ];
 
   const replaceWithFilledOutPdf = () => {
     setLoading(true);
-    setTimeout(() => {
-      const filledOutPdfUrl = "/FILLED_OUT.pdf";
-      setProcessedPdfUrl(filledOutPdfUrl);
-      setLoading(false);
-    }, 750 * 5); // 3000 milliseconds = 3 seconds
+    setTimeout(
+      () => {
+        const filledOutPdfUrl = "/FILLED_OUT.pdf";
+        setProcessedPdfUrl(filledOutPdfUrl);
+        setLoading(false);
+      },
+      750 * stepsData.length + 1000,
+    );
   };
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {

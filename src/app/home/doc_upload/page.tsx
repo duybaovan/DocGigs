@@ -83,41 +83,6 @@ const DocUploadPage: React.FC = () => {
       },
     });
 
-  const providerData = {
-    image: "/path-to-provider-image.jpg", // You should replace this with the actual path to the provider's image
-    name: "Lilly Potter",
-    status: "Verified",
-    npi: {
-      number: "9773825610",
-      name: "Lilly James Potter",
-      status: "Active",
-    },
-    dea: {
-      number: "AB1334164",
-      licenseType: "C-Practitioner",
-      expiration: "03/10/23",
-    },
-    stateLicenses: [
-      {
-        state: "CA",
-        licenseType: "Physician",
-        licenseNumber: "A121295",
-        expiration: "11/12/22",
-      },
-      {
-        state: "WA",
-        licenseType: "Physician",
-        licenseNumber: "019923",
-        expiration: "07/03/23",
-      },
-    ],
-    liabilityInsurance: {
-      carrier: "Acme Insurance",
-      policyNumber: "18718124124",
-      expiration: "03/10/23",
-    },
-  };
-
   uppy.on("complete", (result) => {
     console.log(result.successful);
     if (result.successful) {

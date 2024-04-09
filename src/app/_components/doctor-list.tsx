@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "~/components/ui/button";
-import { Card } from "~/components/ui/card";
+import { Card, CardHeader, CardTitle } from "~/components/ui/card";
 
 interface Doctor {
   id: number;
@@ -17,7 +17,7 @@ interface Doctor {
 const mockDoctors: Doctor[] = [
   {
     id: 1,
-    name: "Dr. Jane Smith",
+    name: "Dr. Daniel Kim",
     title: "MD",
     specialties: ["Emergency Medicine"],
     location: "New York",
@@ -30,7 +30,7 @@ const mockDoctors: Doctor[] = [
     id: 2,
     name: "Dr. John Doe",
     title: "MD",
-    specialties: ["Trauma Surgery"],
+    specialties: ["Emergency Medicine", "Trauma Surgery"],
     location: "Los Angeles",
     rating: 4.7,
     earliestStartDate: "2023-06-15",
@@ -41,7 +41,7 @@ const mockDoctors: Doctor[] = [
     id: 3,
     name: "Dr. Alice Johnson",
     title: "MD",
-    specialties: ["Cardiology"],
+    specialties: ["Cardiology", "Emergency Medicine"],
     location: "Chicago",
     rating: 4.6,
     earliestStartDate: "2023-07-01",
@@ -52,7 +52,7 @@ const mockDoctors: Doctor[] = [
     id: 4,
     name: "Dr. Bob Brown",
     title: "MD",
-    specialties: ["Pediatrics"],
+    specialties: ["Pediatrics", "Emergency Medicine"],
     location: "Houston",
     rating: 4.4,
     earliestStartDate: "2023-08-01",
@@ -63,7 +63,7 @@ const mockDoctors: Doctor[] = [
     id: 5,
     name: "Dr. Rachel Green",
     title: "MD",
-    specialties: ["Neurology"],
+    specialties: ["Neurology", "Emergency Medicine"],
     location: "Phoenix",
     rating: 4.8,
     earliestStartDate: "2023-09-01",
@@ -74,7 +74,7 @@ const mockDoctors: Doctor[] = [
     id: 6,
     name: "Dr. Ross Geller",
     title: "MD",
-    specialties: ["Orthopedics"],
+    specialties: ["Orthopedics", "Emergency Medicine"],
     location: "Philadelphia",
     rating: 4.3,
     earliestStartDate: "2023-10-01",
@@ -85,7 +85,10 @@ const mockDoctors: Doctor[] = [
 
 export const DoctorList: React.FC = () => {
   return (
-    <div className="mx-auto w-1/2 overflow-auto">
+    <Card className="m-8 mx-auto w-1/2 overflow-auto p-8">
+      <CardHeader>
+        <CardTitle>6 Doctors Available</CardTitle>
+      </CardHeader>
       {mockDoctors.map((doctor) => (
         <Card key={doctor.id} className="mb-4 flex flex-row items-center p-4">
           <Image
@@ -109,6 +112,6 @@ export const DoctorList: React.FC = () => {
           <Button variant="default">Contact</Button>
         </Card>
       ))}
-    </div>
+    </Card>
   );
 };

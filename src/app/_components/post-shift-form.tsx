@@ -19,7 +19,13 @@ import {
   SelectValue,
 } from "~/components/ui/select";
 
-export function PostShiftForm({}) {
+interface PostShiftFormProps {
+  postShiftTap: () => void;
+}
+
+export const PostShiftForm: React.FC<PostShiftFormProps> = ({
+  postShiftTap,
+}) => {
   return (
     <Card className="mx-auto mt-12 max-w-lg p-12">
       <CardHeader>
@@ -122,9 +128,11 @@ export function PostShiftForm({}) {
       </CardContent>
       <CardFooter>
         <div className="flex justify-end">
-          <Button type="submit">Submit</Button>
+          <Button onClick={() => postShiftTap()} type="submit">
+            Submit
+          </Button>
         </div>
       </CardFooter>
     </Card>
   );
-}
+};
