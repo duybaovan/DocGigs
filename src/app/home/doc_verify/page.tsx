@@ -134,7 +134,7 @@ const VerifyPhysicianCredentials: React.FC = () => {
                   {"Edit info"}
                 </Button>
                 <Link
-                  href="/doc_upload"
+                  href="/home/doc_upload"
                   className={buttonVariants({ variant: "default" })}
                 >
                   Looks good
