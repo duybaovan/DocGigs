@@ -1,13 +1,8 @@
 "use client";
-import { useSession } from "next-auth/react";
-import { useRouter } from "next/navigation";
 import { PartialGigJobBoard } from "../_components/gig-job-board";
 import { LoginDialogButton } from "../_components/login-dialog";
 
 export default function Home() {
-  const { status } = useSession();
-  const router = useRouter();
-
   return (
     <main className="min-h-screen bg-slate-50">
       <div className="pb-8 pt-16 text-center">

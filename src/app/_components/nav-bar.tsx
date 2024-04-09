@@ -6,149 +6,62 @@ import Link from "next/link";
 import { cn } from "~/lib/utils";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "~/components/ui/navigation-menu";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "~/components/ui/dropdown-menu";
-import { Avatar, AvatarFallback, AvatarImage } from "~/components/ui/avatar";
 import { LoginDialogButton } from "./login-dialog";
 import { Button } from "~/components/ui/button";
 import { signOut } from "next-auth/react";
+import { useSession } from "next-auth/react";
 
-const hospitalBenefits: { title: string; href: string; description: string }[] =
-  [
-    {
-      title: "Reduced Staffing Shortages",
-      href: "/benefits/reduced-staffing-shortages",
-      description:
-        "Our staffing solution minimizes the impact of physician shortages by providing qualified doctors on-demand.",
-    },
-    {
-      title: "Flexible Hiring",
-      href: "/benefits/flexible-hiring",
-      description:
-        "Hire doctors for the exact time you need them with our flexible scheduling options.",
-    },
-    {
-      title: "Cost-Effective",
-      href: "/benefits/cost-effective",
-      description:
-        "Reduce overhead costs with our streamlined staffing services, avoiding the need for long-term commitments.",
-    },
-    {
-      title: "Quality Care",
-      href: "/benefits/quality-care",
-      description:
-        "Ensure high-quality patient care by utilizing our network of experienced and vetted physicians.",
-    },
-  ];
-
-export function NavigationMenuBar({
-  isAuthenticated,
-}: {
-  isAuthenticated: boolean;
-}) {
-  const handleLogout = () => {
-    () => signOut({ callbackUrl: "/home" });
-  };
+export function NavigationMenuBar({}) {
+  const { data: session, status } = useSession();
 
   return (
     <nav className="flex h-16 items-center justify-between bg-white px-8 text-black">
       <NavigationMenu className="flex w-full justify-between">
         <NavigationMenuList>
-          {isAuthenticated && (
-            <NavigationMenuItem>
-              <Link href="/jobs" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Job Board
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-          )}
           <NavigationMenuItem>
-            <Link href="/credentialer" legacyBehavior passHref>
+            <Link href="/home/credentialer" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Credentialer Tool
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/doc_verify" legacyBehavior passHref>
+            <Link href="/home/doc_verify" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Doctor Verification
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Physicians</NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                <ListItem href="/docs" title="Why DocGigs?">
-                  Learn more about why physicians are seeking additional income
-                  streams
-                </ListItem>
-                <ListItem href="/docs/installation" title="Credentialing">
-                  How to speed up the credentialing process
-                </ListItem>
-                <ListItem
-                  href="/docs/primitives/typography"
-                  title="Earnings Calculator"
-                >
-                  Figure out how much you can earn with our calculator
-                </ListItem>
-                <ListItem
-                  href="/docs/primitives/typography"
-                  title="Continued Education"
-                >
-                  Additional resources on how to further your career
-                </ListItem>
-              </ul>
-            </NavigationMenuContent>
+            <Link href="/home/jobs" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Job Board
+              </NavigationMenuLink>
+            </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Hospitals</NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                {hospitalBenefits.map((component) => (
-                  <ListItem
-                    key={component.title}
-                    title={component.title}
-                    href={component.href}
-                  >
-                    {component.description}
-                  </ListItem>
-                ))}
-              </ul>
-            </NavigationMenuContent>
+            <Link href="/home/find_doctors" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Find Doctors
+              </NavigationMenuLink>
+            </Link>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
 
-      {isAuthenticated ? (
-        <DropdownMenu>
-          <DropdownMenuTrigger>
-            <Avatar>
-              <AvatarImage src={"https://github.com/shadcn.png"} />
-              <AvatarFallback>CN</AvatarFallback>
-            </Avatar>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent>
-            <DropdownMenuItem>
-              <Button onClick={handleLogout}>{"Sign out"}</Button>
-            </DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-      ) : (
-        <LoginDialogButton buttonTitle={"Sign In"} />
+      {status !== "loading" && (
+        <>
+          {session ? (
+            <Button onClick={() => signOut()}>{"Sign out"}</Button>
+          ) : (
+            <LoginDialogButton buttonTitle={"Sign In"} />
+          )}
+        </>
       )}
     </nav>
   );

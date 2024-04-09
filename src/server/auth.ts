@@ -52,7 +52,8 @@ export const authOptions: NextAuthOptions = {
     colorScheme: "light",
   },
   pages: {
-    signIn: "/doc_verify",
+    signIn: "/home/doc_verify",
+    signOut: "/home",
   },
   providers: [
     DiscordProvider({

@@ -1,5 +1,5 @@
-import DoctorSummary from "../_components/credentialer_app/doctor-summary";
-import PdfUploader from "../_components/credentialer_app/pdf-uploader";
+import DoctorSummary from "../../_components/credentialer_app/doctor-summary";
+import PdfUploader from "../../_components/credentialer_app/pdf-uploader";
 
 export default async function CredentialerPage() {
   return (

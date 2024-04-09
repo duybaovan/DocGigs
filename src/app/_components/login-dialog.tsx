@@ -57,7 +57,7 @@ export const LoginDialog: React.FC = () => {
         <Button
           variant="secondary"
           className="w-full px-3 py-3"
-          onClick={() => signIn("google", { callbackUrl: "/doc_verify" })}
+          onClick={() => signIn("google", { callbackUrl: "/home/doc_verify" })}
         >
           <FaGoogle className="mr-4 inline text-lg" color="#DB4437" />
           Continue with Google
@@ -66,7 +66,7 @@ export const LoginDialog: React.FC = () => {
       <div>
         <Button
           variant="secondary"
-          onClick={() => signIn("discord", { callbackUrl: "/doc_verify" })}
+          onClick={() => signIn("discord", { callbackUrl: "/home/doc_verify" })}
           className="w-full px-3 py-3"
         >
           <FaDiscord className="mr-4 inline text-lg" color="#7289da" />

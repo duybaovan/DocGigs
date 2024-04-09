@@ -11,13 +11,15 @@ export default function HomePageLayout({
 }) {
   return (
     <section>
-      <div
-        className="w-full"
-        style={{ position: "sticky", top: 0, zIndex: 1000 }}
-      >
-        <NavigationMenuBar isAuthenticated={false} />
-      </div>
-      <SessionProvider>{children}</SessionProvider>
+      <SessionProvider>
+        <div
+          className="w-full"
+          style={{ position: "sticky", top: 0, zIndex: 1000 }}
+        >
+          <NavigationMenuBar />
+        </div>
+        {children}
+      </SessionProvider>
     </section>
   );
 }

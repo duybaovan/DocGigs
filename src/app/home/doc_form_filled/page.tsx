@@ -14,7 +14,7 @@ import {
 import "@uppy/core/dist/style.min.css";
 import "@uppy/dashboard/dist/style.min.css";
 import "@uppy/webcam/dist/style.min.css";
-import ProviderCard from "../_components/demo-license";
+import ProviderCard from "../../_components/demo-license";
 
 const DocUploadPage: React.FC = () => {
   const [demoStep, setDemoStep] = useState<number>(0);

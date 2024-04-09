@@ -25,8 +25,8 @@ import "@uppy/dashboard/dist/style.min.css";
 import "@uppy/webcam/dist/style.min.css";
 import Link from "next/link";
 import { buttonVariants } from "~/components/ui/button";
-import VerificationSteps from "../_components/verification-steps";
-import type { VerificationStep } from "../_components/verification-steps";
+import VerificationSteps from "../../_components/verification-steps";
+import type { VerificationStep } from "../../_components/verification-steps";
 import { Label } from "~/components/ui/label";
 
 const DocUploadPage: React.FC = () => {

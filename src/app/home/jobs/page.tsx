@@ -2,7 +2,7 @@
 import { useSession } from "next-auth/react";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { GigJobBoard } from "../_components/gig-job-board";
+import { GigJobBoard } from "../../_components/gig-job-board";
 
 export default function JobsBoard() {
   const { data: session, status } = useSession();
