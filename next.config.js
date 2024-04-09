@@ -18,6 +18,16 @@ const redirects = async () => {
 
 const config = {
   redirects,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**.cloudfront.net",
+        port: "",
+        pathname: "/photos/**",
+      },
+    ],
+  },
 };
 
 export default config;
