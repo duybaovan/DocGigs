@@ -1,0 +1,641 @@
+{
+  "records": [
+    {
+      "id": "recheD48NNdtmhCRF",
+      "fields": {
+        "Organization": "Alabama Medicaid Exclusion List",
+        "State": "Alabama",
+        "URL": "https://medicaid.alabama.gov/content/8.0_Fraud/8.7_Suspended_Providers.aspx",
+        "Logo": "al-medicaid-header.jpeg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/UcNwNqHoftWCI8N6XpJCnQ/Kc0HF05_Lea91maeNLovNUbcEU2CN6YZE6rDLVO3XXuJiFwedr_9Y3Sw7ATd0Hzc6wc83tGmqTnG1hzusWJ0Mt9EXsTLuyRzNQBmLzQIAV2uwuOaBOoE4Qf5aS4BbZbjoLKug27CqJYvqJYNAiz9l82qtX8_z443ClH6E3ZWXwM/t3HtlzakV18Ydqvqgr_SxoMfpyE6m63Te8GrKb4Lb3E)"
+      },
+      "createdTime": "2023-07-13T16:00:20Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "reckzzI5PR3FhYjKc",
+      "fields": {
+        "Organization": "Alaska Medicaid Exclusion List",
+        "State": "Alaska",
+        "URL": "https://health.alaska.gov/Commissioner/Pages/ProgramIntegrity/default.aspx",
+        "Logo": "ak-medicaid.jpeg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/8yKM0AZqjKaJNePzDYWlfw/trzmqS9eXl0adj34AOhOvywXxSV5WeAB14R6-cTfOP39bbwXPnC4e5EvntthEaJPZZM_QTxW_elydZ5fpYs4IXiUN-IuQZOF_9VyhWT190Phyrl_csust4-yq8gSAqN4WrggEWapIJCTeJHmRQhYug/Rm_SkFVIkH2yW7Iw1wou-Cj3MTqAy1NiNQfZy69VX9E)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recLUQEyCtz4gSide",
+      "fields": {
+        "Organization": "Arizona Medicaid Exclusion List",
+        "State": "Arizona",
+        "URL": "https://www.azahcccs.gov/Fraud/Providers/",
+        "Logo": "AHCCCSLogo.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/LXAIcy7dKIRrZrRFCoB3ng/kuXx7lS1ABIYUk_WDxg-sN_uRMNT6tWQo97VJlcx03YEEkM-RoXLWTdGya9wCbV74GJj9BuzgN0IliAqbAx8phY7oCEhBpFl5CzvsLlPGRaZecUGn6-VELy748dA8e1SFEeDJBHyYvr2n_oQlYhZZQ/uieitT1sijmF1-jeuuLDja5V0oQpFAat0U4Pi_9G6a4)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recGuYn9HncHfWWw1",
+      "fields": {
+        "Organization": "Arkansas Department of Human Services Excluded Provider List ",
+        "State": "Arkansas",
+        "URL": "https://dhs.arkansas.gov/dhs/portal/Exclusions/PublicSearch/",
+        "Logo": "AR-DEPT-HUMAN-SERVICES_COLOR_RGB.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/XlEwBENB2XBq7pIdzxW6MQ/5CQn0ppfEs9cyGANmhjCcsV0Ls43MH4W7zhWHVzxAyzLOTCYFlwGDKFVUXf28lFKD94eTd7snCjwTAgigkiPekllymKlpJ9cPC7ZfLT81ke_5YmHpJAZCMCTFL3ihJTJa9ZB9q8jcpTQKlkoSBxZY7bTgrZvvxjhK3GE0srZjl4/iufGwcaMRxWJnSZfopoNyXw3q57eI0Bfx9NUiVYHtZQ)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec7mDIhrpI0N30S9",
+      "fields": {
+        "Organization": "California Department of Healthcare Services Medi-Cal Exclusions List",
+        "State": "California",
+        "URL": "https://mcweb.apps.prd.cammis.medi-cal.ca.gov/references/sandi",
+        "Logo": "ca-medical.svg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/6_EVqmyZRdZ0T16rY9ye6A/sc5mu2g6uNQs-0KTGquWl8mae3D0AkLnG2WGg0ILsdiN2RfNs1FbV5cpJ-qeIPirHRO_Z8D-G57f1cjtSUgV6Fr_nzlVfA4WycieoFwlsFx6SuOJYowbKs_sWzGIl5HeQPf6cNgI_fQrH3_R9XNFOw/QGex6le65hTT9sqOHjevsGUuTrUHvLXiBarL8YhOw_E)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recvUV5B5epT6hxW5",
+      "fields": {
+        "Organization": "Colorado Department of Health Care Policy & Financing Medicaid Exclusions List",
+        "State": "Colorado",
+        "URL": "https://hcpf.colorado.gov/provider-termination",
+        "Logo": "co-exclusions.svg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/spe_ibpxxwWUwVzQfu60sQ/WTg1X6KlKRHlsm9houz639tmZPVeF-PzCzfMHfrY3LtgbhyN77iBXX1sj4uRWHq0LRF9or9od6XQcYIYOooxKpOYUzq8q2Y7wi8n6B-1d0RfQ7dpb0MKRmNQ2RN62F5XWQvLWuPeOQXby50JFo75TQ/kfIUIhtdZxzB73imi_iAsuGp6S90i6WUWmjsxnJbWTU)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recShWXnEZsKTwnoW",
+      "fields": {
+        "Organization": "Connecticut Medicaid Exclusion List",
+        "State": "Connecticut",
+        "URL": "https://portal.ct.gov/DSS/Quality-Assurance/Quality-Assurance-Administrative-Actions-List",
+        "Logo": "Screenshot 2024-02-07 at 2.32.20 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/m2mlq9ZWmZVlZKLMX4D3qA/2J8DSsbpWfeW_qzHC9wNfZEYlnEkaL1Q5mh99oBh1AQou6gN1-cI19obbAeDBZnjd4MBdg-5CueBvzQB_MgXvL1Sja-rhR7Fgxi1zVjunb2phfP3YJ_5ydv5Ie6tw20LCAh1wdn-mH2OyuQswquSU-RMtcxFqgZduY594dNPVfM/i-AFwoaCX6znU-GdMA9XCKAR1BG1HXLCd55O5BntqJk)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recFP5WJ10pvZqZoA",
+      "fields": {
+        "Organization": "Delaware Listing of Sanctioned Providers",
+        "State": "Delaware",
+        "URL": "https://medicaid.dhss.delaware.gov/provider/Home/ProgramIntegrityLanding/tabid/2102/Default.aspx?AspxAutoDetectCookieSupport=1",
+        "Logo": "de-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/mbg1TPEJzmM0xoJQNw9awQ/ndmPSNg5oveFdwGTRvKm2-BU6kbB89rMNtkCHHGcfBBYSfylmI2HzL1yxCYHKqs6EIjBzP4T3dWKxGziKwE-Vcq3_5yhHi5yqAtZnBhCn4bzpd7lqj1fjTApsmrlMjOLmIvfC0WOEOQkRCM66JcHOQ/yZyXc3v82cxWIs6HbJfdia9RaUXcKaDY7I0Kayz7ofg)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recKRtDR6I9WbLA7U",
+      "fields": {
+        "Organization": "District of Columbia Office of Contracting and Procurement Exclusion List",
+        "State": "District of Columbia",
+        "URL": "https://ocp.dc.gov/page/excluded-parties-list%20",
+        "Logo": "dcgov_logo.jpg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/HiRKXDF4FSPK4fiMOSwhrQ/UnVsml65oCnYSIWZskuDhlxiM4g94k0E6bElyEzGw65S_OZvMGQ1mq81-1MLrM2jX3QOtNw7iKLbHxM3ju4HkvYZoKYkWGqQ1FykNfrAxb6mYlPlz4TwDv1D0D7zCaa9dq420z12NJ91uQiWs4FvAg/jjYO09SK6QvVkUfYzjMEDDVlIv9i817zonlcC3LDX8Q)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recmfZSYZU3GzKgWp",
+      "fields": {
+        "Organization": "Florida Medicaid Exclusion List",
+        "State": "Florida",
+        "URL": "https://apps.ahca.myflorida.com/dm_web/(S(sk3kfztyb5hyqg0msmwuygpk))/default.aspx#Final_Orders",
+        "Logo": "fl-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/CjC8ZQHUYl896CTylFTMqQ/JkbOIR7mTLqK6wU1WFkLn3pHqEGlzvZPfp1zeXm-_bxniZMYzl2nCPMcA9_mlWiwLKLOzSmMbrd89IGJzIGFie5jI8KbVMIRLIALmFhVmNGKhyeeq0a3wF8zCEKBA90Yn_bIQZFi9Wlnc8Z1UHgGIg/hMYhY_VxvM3m5Ylwry1ML5KCCHLLP_lVPMFsd8CY4d4)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recTtY3yD0rLbieYC",
+      "fields": {
+        "Organization": "Georgia Department of Community Health Medicaid Exclusions List",
+        "State": "Georgia",
+        "URL": "https://dch.georgia.gov/georgia-oig-exclusions-list",
+        "Logo": "Screenshot 2024-02-07 at 1.47.49 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/BplTOwzYYd1GV4nqyjIymg/9hBunFPr0rKut_8k4HL0A-_2TRvkyo593ntZ7OHESTwpysgsz76Jm8xTSThPKHiRvCzQ2GCWdaYrj9nP37ka__qUxqdwXPhnotVbZ-LmnjdLL3QDUdUKM9KkGEWf_Uw53XHEYlSJJ5GUWkmbGPotvraCQHnecgJA1gJCQrpnRBI/CMvTS5PvzSW2fFTDr8TTGnFHE2PZEad_1bCUPjNBgOM)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec33YU5jJKEkQkqW",
+      "fields": {
+        "Organization": "Hawaii Department of Human Services Medicaid Exclusions List",
+        "State": "Hawaii",
+        "URL": "https://medquest.hawaii.gov/en/plans-providers/provider-exclusion-reinstatement-list.html",
+        "Logo": "hi-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/R4ECu_HNqURioh_0ymKl5g/XUWBwc8OUIrHO9Tm4LL_WBMUvDPF6w4LIV004VHxhudWu1Lj5MtDACzW8L1KZY9m402G7aUvI7z2oi5Tafuqfx7n3FYo0-bEqPAXOT2ZISNKdvsHd47qHaJ34K_mLO9eblQZrtUnVZ_gaaTWTJboXg/Xb8Sr2clT-3P1w4LztdXs5_xeCkMjWMZLjENAmZZuAs)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recJo4V1uoxLB67OK",
+      "fields": {
+        "Organization": "Idaho Department of Health & Welfare Medicaid Exclusions List",
+        "State": "Idaho",
+        "URL": "https://healthandwelfare.idaho.gov/providers/idaho-medicaid-providers/information-medicaid-providers",
+        "Logo": "id-exclusions.svg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/aya16jjIWDgaWIXl7pW1-w/PoVAZNXsZSRveTc48ZVvHcW-z4NpFjb1AsDAglqscDQsF2W-e2asX9D5r00ni2zYZtRtKY7UDuk4XhkzkourrD3ymCDznA52_v5zcXlepTgnLwn6UyLToGas7ju3tTJPmCU5P76LhpCtj-hO_R4vaw/doBV-ROnIU4XPm497tKwmK7CT915qBXWFyZ9b-FTXXY)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recSaElH92JPoHyID",
+      "fields": {
+        "Organization": "Illinois Medicaid Exclusion List",
+        "State": "Illinois",
+        "URL": "https://ilhfspartner3.dynamics365portals.us/sanctions/",
+        "Logo": "Screenshot 2024-02-07 at 2.33.04 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/LG2aX00A68h8XVBuT95UcA/cPVTyRnejrDMocuvBbjdstwYnkTwRAWYzt1g0v7dxlzfHGWI6aaJT9D9O3yVvfJ1y9N0qJPU8beJGC97cQ18hY9KW5o_KnZJP-wskZZa12ujV3YZn8pRnoYQsXgnhPV3d4TQ3JLMuKQ8nIA__HiOWXDcSmOVb4bNnL49wdzq0EA/ujo2kOpigfBtNOIshmRk4pCRm8GzV0D1sZl-HSHDcss)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "receBHjgWIPOJechF",
+      "fields": {
+        "Organization": "Indiana Medicaid Exclusion List",
+        "State": "Indiana",
+        "URL": "https://www.in.gov/fssa/ompp/provider-information4/termination-of-provider-participation-in-medicaid-and-chip/",
+        "Logo": "Screenshot 2024-02-07 at 1.53.58 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/dzxJnWazjNV0Sn-mOBH9Ww/bEYAu1RbX8XGN6l3l5XSj9mufBMCngheck1e_Bo6v4rgCZNpcFujuSC1zBC-ra6Ck6XfN-Gm-KwSTlMxpf45n1gYTH5sKOVGvb2uZc5nSnBEldi0P9PsB5SiaHHkgEhpR2x3FQlEVpOiMka6jloEFrSA8Avkp1p5Ey2eRNJKl0w/k1Z2gqfxXHZxeOKLZyynSvspuBqIpT11eJTfRTzfJ6s)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recZARmxiuYMEemwa",
+      "fields": {
+        "Organization": "Iowa Medicaid Exclusion List",
+        "State": "Iowa",
+        "URL": "https://hhs.iowa.gov/programs/welcome-iowa-medicaid/provider-services/excluded-individuals-and-entities",
+        "Logo": "logo-iowa.svg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/GRw7YeVJIEq-gi_cP4RZbQ/3XFkPTFwta73ZJxit22XUbORijFbtXc0N4AE3EOTlLtDJBZUzyCKOBNTwFuauH_qFqhAhrOuHb2KHnvN7hh9Vait1CGRtGCneXVtXM6JbTq2c38yr0bNzL4t0XDvXbidQQ7988aS2cvNdrfFG_kkPA/ckxokIlhF_j1QR9ivms5C_VObqM4EzQXTIcvZpcjrDE)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recHZINluda6ic0mG",
+      "fields": {
+        "Organization": "Kansas Medicaid Exclusion List",
+        "State": "Kansas",
+        "URL": "https://www.kdhe.ks.gov/172/Medicaid",
+        "Logo": "ks-logo.jpeg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/YtadpAVtAa4dAJ-AaN7rhw/G1dK4vHkViwSWzvw-QBWhCKFTaCZcM1UmYaUIxkgRiOKI2OZAuL2x-ycqk-7TloDopX1rq2CRY5H7I2q2FSaBCTnf7sgDMR0NHDWa_w9s15Xy2XfmGBISDccFPP3dUN1Toobijq-eD2hTOEZdj-Wrw/WvYxFpNufX_FT8jrxs3KbrYWT7OE0lUHdC1N2pGDTMc)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recZ4UAGJfiqBk9IW",
+      "fields": {
+        "Organization": "Kentucky Department for Medicaid Services Exclusion List",
+        "State": "Kentucky",
+        "URL": "https://www.chfs.ky.gov/agencies/dms/dpi/pe/Pages/terminated.aspx",
+        "Logo": "ky-logo.svg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/9JfoYLfd82CZunc4SrYJXQ/l8hIrbvbtCxiaRdy6tQz1iGhUE5OTd3E-c5JGzduwqnJqSx6w5Zpqcxu0A41grBwsQKzYRpsrlODv7pcnIIJWZIkiMnVn40A9ryYYIBWtJNwRT9W1GZT9q6OzSEV0NvSYANto7b179NORd8cm5J1sg/oMhUJVwxxPJfbT02xF5E5IPRNLjWD1b8UxqeWLOKiis)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recDJIrVUSG4l64Nv",
+      "fields": {
+        "Organization": "Louisiana Medicaid Exclusion List",
+        "State": "Louisiana",
+        "URL": "https://adverseactions.ldh.la.gov/SelSearch",
+        "Logo": "Screenshot 2024-02-07 at 2.09.20 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/jv9lEoBqiEB_YMj70RY71g/q-FD_OvSuEgaE7n743paKjycffTpzgEAv_9BVM-q5f-fDsOSq-WKI9GNfLDAIo-RO0IDMzgh1cErBnCl-lkmQQWB1QsrGH2qISWQFFl9x9C7zsK6dO4CWoK3sfZ6dX9VVw6waRQ2Fl_Z4AzLVu_nAJq7AIU7CrKpAPwT2K1npSc/qjPlnqCrSKD5IBxT4B-E0JhDO9oMiozaE0ydwYGEN6M)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recD4LEz8oKuEKhGR",
+      "fields": {
+        "Organization": "Maine Medicaid Exclusion List",
+        "State": "Maine",
+        "URL": "https://mainecare.maine.gov/mhpviewer.aspx?FID=MEEXhttps://mainecare.maine.gov/mhpviewer.aspx?FID=MEEX",
+        "Logo": "Screenshot 2024-02-07 at 2.10.51 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/DJGionZUgZHGhawIp3Ldrg/kBKrZgXJayToTKmJqf8Er860uv08qSW_GdAPxnywwq5kzxESuNcXGXJuLOQ4GApenxEjnd8Q98csyoG3ILZuCcuKCxtAIja3vt-yqScURQPgBxs3Y_wgr-w3F6f2XnrIZEYhBRzx441kDDMs4G8A1HZy7vh8_s64dPXN0KfuXBA/9AIID4_PsElWtcFT4ST6dQSV0HdnUYxQntg2ZHa48Uw)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recGHD1oKQmHosUC5",
+      "fields": {
+        "Organization": "Maryland Department of Health Provider Services Exclusion List",
+        "State": "Maryland",
+        "URL": "https://health.maryland.gov/mmcp/provider/Pages/sanctioned_list.aspx",
+        "Logo": "md-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/lmnTLL4Wy9oMG8nuZ_4-8Q/PDD_KA_LlVagnw_krAhONwTDcJ0vx9q2eQWu8eRS5l_Jk-8wvAX2lErCBtcgcWfXKpwvMcRsM22jr1XS0dIFaya27Mu36nJLsgK4cxkefb5MqNug1Uiy8BVndLc41TpqDyXY9fWAdir9W-yLMybXTw/7dSD09BXDi9ff0ORMsuhofoCiV8Kk2xaYQ5iwEeNWqY)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recly2BYrHF2AJ7st",
+      "fields": {
+        "Organization": "Massachusetts Medicaid Exclusion List",
+        "State": "Massachusetts",
+        "URL": "https://www.mass.gov/service-details/learn-about-suspended-or-excluded-masshealth-providers",
+        "Logo": "ma-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/bxQ_0j2xizuCWky0YQAxyw/SxIYjouX8HmRF2iNaE2d-twGOioioH5HkP4Igr8LAj_B4zcCvi28VJTjecPDyLbiZxXI9qB0PJgDk9jHIYzvd94H-Uqt5jF1LyheC-8-Nng5XYA6umGA89mAW5F20iPW1ZGxUUpzyrpbielPXfCatQ/7qvh8HZgQr6IdWzWHzwe5LR4BeSbZ4W0c4kWqDEZ8nQ)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "reclM9Ctt9g1VsT1R",
+      "fields": {
+        "Organization": "Medicare Opt-out Affidavits",
+        "State": "National",
+        "URL": "https://data.cms.gov/Medicare-Enrollment/Opt-Out-Affidavits/7yuw-754z/",
+        "Logo": ""
+      },
+      "createdTime": "2023-04-06T18:16:52Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recppsn8fTe2Rde7n",
+      "fields": {
+        "Organization": "Michigan Medicaid Exclusion List",
+        "State": "Michigan",
+        "URL": "https://www.michigan.gov/mdhhs/0,5885,7-339-71551_2945_42542_42543_42546_42551-16459--,00.html",
+        "Logo": "MichiganGlobal-logo-Icon.svg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/esPEDrK7m4ShX0mfcvdbxg/VdtFyjFEbkQyIFTiF0f7wRNia_6BL4qK3f-u-xCt7CtaUsndKNUVBxN6f0pH2PVxHTj50ZA0KjMiLHOxmszV7Vmhuzmx3217tQQdxI3J_yjPTlWfn7iDJc3gra23T_yg3g2cIU6NEheemOKMpKDWN0WI5MJTZp4tSHEhSaRTfOw/A0Qz_YAwHtokprAoY7vPREkvO_1CQeLYROXwTCFBBXc)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recV7LDWZxGrPMoKS",
+      "fields": {
+        "Organization": "Minnesota Medicaid Exclusion List",
+        "State": "Minnesota",
+        "URL": "https://www.dhs.state.mn.us/main/idcplg?IdcService=GET_DYNAMIC_CONVERSION&RevisionSelectionMethod=LatestReleased&dDocName=DHS-295094",
+        "Logo": "mexclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/eWDH3m-XvpNLLxiOzH9xDg/QqIh5gtyLc_Y_9JsmN5mqggchW39UmiQhv5pODoIVCDJFrEjfmnN-hfjCHma21ToYwmqGzxz8YJBGlYmakCaiJo94PLqqfm5OiSuM1pFnb477Lb3zhfAtSpM-tBhBwyFljuKZuLdokzw_yiOdl2iug/YehbqHfRpEbjixgJVYYlIGVgMqH6wq5sQRYJrzne86o)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recX0jxPwKFmDOAb1",
+      "fields": {
+        "Organization": "Mississippi Medicaid Exclusion List",
+        "State": "Mississippi",
+        "URL": "https://medicaid.ms.gov/providers/provider-terminations/",
+        "Logo": "ms-exclusiopns.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/YxL9rhCF3lcLTPdCgI4xbg/2jp5PjeGUq84m09qfXga_B3P9dmTjowI9jtIJc6iDPlHf4r1WW1iOUS33kXx1nSxleBnoKCjB7cGcLSq0XLwgZanfZ53Jl3VQU1ROv56oen_dSw8vLaxQDItwki2xQYc1vvEVgaOREF6OrKJGJI-Gg/B0FR_6y0-YSiGEgrPHQ8pUvZNR8lyllz9FWa7yAGtSY)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recmQUNWYv1TDEnwd",
+      "fields": {
+        "Organization": "Missouri Medicaid Exclusion List",
+        "State": "Missouri",
+        "URL": "https://mmac.mo.gov/providers/provider-sanctions/",
+        "Logo": "msexclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/AmJ89vRrwKxz52gyUDZGwg/ZLjKQk_qpticF6ZpVOJCufuhvvP25pXI3ttlj7psCRwzo1qVbfQO7ugDTHSQ3GwBsC_SW-6ybEUQgKWvirQlA8GDUbhpQfcCSVTqcqjQkKv0ruaEIykgTV725U2Nc1aVgc-UP1yztuyMuPvJL3cJ7g/d9hA-7rhrNx8Vm34v7UrD232MOq_xv-wkfPDoI2Kcdo)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recT5V0RCtvGVFGoB",
+      "fields": {
+        "Organization": "Montana Department of Public Health and Human Services Medicaid Exclusion List",
+        "State": "Montana",
+        "URL": "https://dphhs.mt.gov/MontanaHealthcarePrograms/TerminatedExcludedProviders",
+        "Logo": "montana-logo-4.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/sP6F9Zj2yxOw7bcyPaFLMQ/xMDDITqQaaUmbzKN57geiCBbdowAj5gIO6DXiDH3qqkUz5TYcnXR1fVKmOxa9RBU6IUoEcpCskotclWfGypPupims48X9ZI_9A-QedvNce2eOgCELvvV22I1Zf_98MyplqZJGKW286dLMCX3UNxmpg/04uiHL4D5HZDAUMmZ73QeP1dofE0s6ix_bjLkn9So0o)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec0kjsEk4Z0Jylzh",
+      "fields": {
+        "Organization": "Nebraska Medicaid Exclusion List",
+        "State": "Nebraska",
+        "URL": "http://dhhs.ne.gov/Pages/Program-Integrity-Sanctioned-Providers.aspx",
+        "Logo": "Screenshot 2024-02-07 at 2.19.00 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/Jjggo5XtUJX9aToccZtW_g/-5W8w8N6rsWNeTFgbb_vKGm5QzuLj4kVND5qTllvOyzB9pJAb-_P3OVKTN7kVW1_aohG8tksgT4F9u2XvcnaZ-JbKN-EWaPlRhkZhhIbqJG3rg3fsPBv9F67qhZV0ncfP0JuJNxFTR3qxDNk70PTV7nRPGtxsvTz1ugbnSwWosA/6ir3_e4w9fpAYFLzw1IRIKZX3jM4x-bN8DLb45UcjKc)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec74zKCwdtilf25l",
+      "fields": {
+        "Organization": "Nevada Medicaid Exclusion List",
+        "State": "Nevada",
+        "URL": "http://dhcfp.nv.gov/Providers/PI/PSExclusions/",
+        "Logo": "nv-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/v5mee2qzDxH2_Iw8y8vjwA/R2uiL9Gg7tNMsZEMUxzivnoAiwYy8VJfzQF6kqCyERk-F9eaZkY0W3W37WeJdiD9WRl97gBEU5WEudtR-oxbYbxHdIbZK3mK8z2z7B_O2aVE0ivKNxCqLZI9NT3cim5dc1TIY9ZspXj1E5Cq67FARA/-_2D-qcqFkfL_HeV65opBbS-6IlWu6-krrePKw22-2Y)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec8ausP7mRFOU84D",
+      "fields": {
+        "Organization": "New Hampshire Medicaid Exclusion List",
+        "State": "New Hampshire",
+        "URL": "https://www.dhhs.nh.gov/programs-services/medicaid/medicaid-provider-relations",
+        "Logo": "nh-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/WEbU0A2iJQRgtkMN2lP0gw/mZrjXweXjtJ8iSh6gHInowCvISJ1Pk7JfIHd-rDURkb28c--L95-1wOV1c6p5XWkniIsio6TayChFauIfvxGaCK764UaHaO6xlc6n1Bme12twhyqEjkR2PNGqYLTE5J3wA5GcZ5hA29iIU6kW_5t7g/YyhCofBPr83b6NdiEEBEnn0eNSg0rfMhtzk-CfGIjRs)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recRzYQgAc7hBLsp5",
+      "fields": {
+        "Organization": "New Jersey Consolidated Debarment List",
+        "State": "New Jersey",
+        "URL": "https://www.nj.gov/comptroller/about/work/medicaid/",
+        "Logo": "nj-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/l1B8AfYlJx5saz54FmOksA/XTw4jHP-JNqW-mXjWAJkvtEgAx-4gLP01Ae5OGAyHDSHxoVgfX8fPSgX-I7ZkgbtvBjVLecQwRGmwzV86RfDqBXFs6FNsIACkKPShZcf_8Xi4uP2JoYthg3L4-vQHcgDs2RFGI7P2yju9N4oi-jNgg/KiyiZNRHDlQ6PtKaOmxUOK_yfpY_9KfXhCxSmcZ_M7U)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "receIiKNtzRsw8rPi",
+      "fields": {
+        "Organization": "New Mexico Medicaid Exclusion List",
+        "State": "New Mexico",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recsmbypvvuRyDLwn",
+      "fields": {
+        "Organization": "New York State Office of the Medicaid Inspector General Exclusion List",
+        "State": "New York",
+        "URL": "https://apps.omig.ny.gov/exclusions/ex_search.aspx",
+        "Logo": "nygov-logo.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/GhYZCEpf7dFtrD6iC13_Gg/udc8yBmtnPFtCwNNAaXawPT5rBcscutpQD7d_9HhpjY7Wd7K53khsUCb90MJzs2vDGqdXmFH2xU41-glRVWjzFqxdmAPyUuMcrssB_q8lwrkeHl0LcyzCdJBvdnkC2YLbKgEyR-2Sfo98RDRp1roOw/3-bgNVJqb_DKXXuQuTUvtGx-682zV4bgTRxuyTVcCU4)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec04uip2IDbyWKmT",
+      "fields": {
+        "Organization": "North Carolina Medicaid Division of Health Benefits Medicaid Exclusions List",
+        "State": "North Carolina",
+        "URL": "https://medicaid.ncdhhs.gov/providers/excluded-providers",
+        "Logo": "nc-medicaid.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/hgSM5_k3K0UR6eRcpZLD0Q/28bKKAKjSg-tHHhZCku_61-m2w1PmyPhxx3RDdNKAkGo7cs7wSH2id3XFy0m4agAZu1xBiS8iYWTIsy_rjkj1_iIN0oa61hMW8XJvLTuChGg2JcON7YZqFjfVY5OHOu6Gvmuv406AqsUdkAlkJjQYg/UUXuGROCoc_XPNZoeftyejGrczHFnSUaXRqTYR4OK7U)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recdpyEnKM1vzS7Xi",
+      "fields": {
+        "Organization": "North Dakota Medicaid Exclusion List",
+        "State": "North Dakota",
+        "URL": "https://www.nd.gov/dhs/services/medicalserv/medicaid/fraud-abuse.html",
+        "Logo": "nd-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/8q56ShikAB5knF8Pb_18nA/E1eIy0khYN_s4OU58dHPsYuxVYlDriF9EdKcIfcGfeGgsXi2S7vTUmNUwlOCROES7ugx-rfnx1dvvDsjEgkjsvmls-31WJRoB6yf31WUch7sBpFfuj69XteUt97XLKIipenLmpdKyGayN9y4CywoMQ/BuzB9XUZNxoN5gRYfbMpp2Vn0vd5KiaBTndCPGnEGBc)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recfD71qxTQCkVjjE",
+      "fields": {
+        "Organization": "Ohio Medicaid Exclusion List",
+        "State": "Ohio",
+        "URL": "https://medicaid.ohio.gov/resources-for-providers/enrollment-and-support/provider-enrollment/provider-exclusion-and-suspension-list",
+        "Logo": "Ohio-Agency-Logo-Department-of-Medicaid-HORZ-RGB_v2.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/H359Jp2RW_4vXuaekNeMMQ/04ZLLFvjh0f1Mp1imxx1FZCwNqSO0xM3_CNVq7kXc-M0m1qLGNkEcjQ4u2mctvr817oXWvf7K50nETUdUbHp5JBFZlcHs0yqkP_UmmKvVT1BKGR_KcUVqG3LQaH04U9fD7905iJI1m7-1KpZazjvD9jmuOiHCvCRWd0jq2vTEXS-HLu1_mlZRhJSUbuuR4QhocX5gQ_gGmC6HkmBKfJfdg/SBTb18lmWVX3nS8yWhhW1Ye9lmJvHrzQyQEW8PB7sC0)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recbxMtr6zp4Rz92Y",
+      "fields": {
+        "Organization": "Oklahoma Medicaid Exclusion List",
+        "State": "Oklahoma",
+        "URL": "https://obnddc.us.thentiacloud.net/webs/obnddc/register/",
+        "Logo": ""
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec4M9T0MwWT5pp4K",
+      "fields": {
+        "Organization": "Oregon Health Authority Medicaid Exclusions List",
+        "State": "Oregon",
+        "URL": "https://www.oregon.gov/oha/HSD/OHP/Pages/Provider-Enroll.aspx",
+        "Logo": "oregon-gov-color.svg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/1uFAkJzp1eYs0chbx3VxIQ/6rcuUmAuXvGUNDX01cZR-xxLen8D5oKw538_VxSbsAobKtuclCR7xDthx3VWlUNNYyfhxZqkKH-J24u1XH_0A8W0wWDsMkNjWYvFsDOt3TBL-NipzlD5KEW4KueHCiFTyvx29AsxNJi9RY_WAjKJxw/-NbKvULI5uHXaMfCcP8crIpm8WYoYwzxU0_8l65ZnpA)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recq8rPWPDcVne64I",
+      "fields": {
+        "Organization": "Pennsylvania Department of Human Sevices Exclusion List",
+        "State": "Pennsylvania",
+        "URL": "https://www.humanservices.state.pa.us/Medchk/MedchkSearch/Index",
+        "Logo": "pa-medicaid.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/yewcQFHN2pM5x73OwKiv1g/3z-Pu8ja3DbCwyhOo3MuuqTd_w4roqr3jOMB26c4WiE-t-sZ_v8OIsCX6XYmM_0VZqTCqC1duLyeNDSa8KdSLXbxVwiQiuCCtZM0MO7JWM0yJ57yeXzP8UN8Fjw3CuI7qBHVUVOExMHcadPx7sKpGg/VFlib2DSgk0MxFNxBCIw9IlfCOLKz-eBdU5optPFJj8)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recWeRmV8dgHKm3Gz",
+      "fields": {
+        "Organization": "Rhode Island Medicaid Exclusion List",
+        "State": "Rhode Island",
+        "URL": "https://healthri.mylicense.com/verification/",
+        "Logo": ""
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recXbFo2M1VWl6Gk8",
+      "fields": {
+        "Organization": "South Carolina Exclusion List",
+        "State": "South Carolina",
+        "URL": "https://www.scdhhs.gov/site-page/medicaid-fraud-costs-taxpayers-millions",
+        "Logo": "Screenshot 2024-02-07 at 2.25.42 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/mrKF7Omx-lwGxFxgyupNRw/Kga6gxuku6mZYTxoCOueAZKJpiCrX_v9CHtMMrs3pC0J5wv35Czy_ejmudNjmo7Oef-elHOC_yYl6wmscHvRedRn2ullOPp_AGF9EvFDHwVODtgf8bQ6xgpeEw3uzmtdiyglGBklDNamNe5S4DPepMwjF8mLiLIsoaT6LZGuJGk/C4-N7agwoSnKDVt_NTFOjhk32XNiBqvJwO9460PyppA)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recVsuHrjVf6DJbAc",
+      "fields": {
+        "Organization": "South Dakota Medicaid Exclusion List",
+        "State": "South Dakota",
+        "URL": "https://secure.utah.gov/llv/search/index.html",
+        "Logo": ""
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recSGBDPNdbNELpmV",
+      "fields": {
+        "Organization": "Tennessee Medicaid Exclusion List",
+        "State": "Tennessee",
+        "URL": "https://www.tn.gov/tenncare/fraud-and-abuse/program-integrity.html",
+        "Logo": "Screenshot 2024-02-07 at 2.26.58 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/kDUUmluzViTNOJHCULyDWw/aGQaBBdcoCdFPEzHeljWkGxxQc3thg5fASMOIcRT2Em2DAQb8C3BWCMNlTRaLh64mXmQJ0gXOrGQvP2zgPlQG4NeXP8nc9VE6Wgw38HutMSXslP2jeIQ4D5S3UsytQy77vHIk-1DCizxvASQdqdiD9FyUwoHzJPw1TF9rMklxlc/nOVYDluSsnFYKwIf-TU8UmWiIb7wzB_wtnUH2kUB6EI)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recJ87dOOg1AOE5p3",
+      "fields": {
+        "Organization": "Texas Medicaid Exclusion List",
+        "State": "Texas",
+        "URL": "https://oig.hhsc.state.tx.us/oigportal2/Exclusions",
+        "Logo": "tx-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/cfqzhi1cgHTR8su5_LWzXA/t5D0fsQ84hglehWvjJ7jKl1nAaaP43OCyX2jszAaltNUigEhcMz49-MfiF9puU6RBwsdezHlkLwOudGIeRzJ2tfwVnzqiWcThPnxVqAAwDP7tWGHdsQcIc4_apvDHwQcpvmbKIUCGzXkmZktora49g/_u1am4tk88NwH6EK7uKv1i7SBWxylDtPWdi6oghwutQ)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recSMNT7X6czxtevA",
+      "fields": {
+        "Organization": "U.S. Department of Health and Human Services Office of the Inspector General",
+        "State": "National",
+        "URL": "https://exclusions.oig.hhs.gov/",
+        "Logo": "image.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/Giet9f1rKp5yS3qVNgsVGA/Dcf8zhKe8EdT95rClS_CKNALfc24V2DpwSpfnk4iJKPP5A619O26G6bsE7FaY7b7RWBeKoKm6jEGdDDOSci8BqwKmwMjIefoYApwcs7gFyHPMK9IVXzntQktpjLAmknwHiT6OTy9TN2cWti2U9vtmw/AyQ7kRL63L-Gj3FOlegaT4gpciKzpKXZRISThE-so10)"
+      },
+      "createdTime": "2024-04-10T15:12:50Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recJuhUA18WzjVivI",
+      "fields": {
+        "Organization": "Utah Office of Inspector General of Medicaid Services Medicaid Exclusion List",
+        "State": "Utah",
+        "URL": "https://secure.utah.gov/llv/search/index.html",
+        "Logo": ""
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recCUUgKojXBD0frG",
+      "fields": {
+        "Organization": "Vermont Medicaid Exclusion List",
+        "State": "Vermont",
+        "URL": "http://www.vtmedicaid.com/#/provEnrollExcluded",
+        "Logo": "vt-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/Henp47aPiWfalsrZY2Znxg/ko-sjdUtClyWqMJ6XXe27ivQz-6ZZ-Mg06t0lALpL4_Ya50b-k42hLjh3x9FrLI3cUN4Sv_cWNr2OvOhQeb6BA2COXzb4WCai7V3YyZlzpH-bHUUVIcKGmYVZtncift2lBHwD24M01EzV_pQGvDHhA/PW3tA9vjaT3eB-429vYvaZKTLQTxMOLORFJU1qkNej4)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rechwUxi7nDgcW81i",
+      "fields": {
+        "Organization": "Virginia Medicaid Exclusion List",
+        "State": "Virginia",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recLodKrRjrsd7W3f",
+      "fields": {
+        "Organization": "Washington Medicaid Exclusion List",
+        "State": "Washington",
+        "URL": "https://www.hca.wa.gov/billers-providers-partners/apple-health-medicaid-providers/provider-termination-and-exclusion-list",
+        "Logo": "wa-exclsions.svg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/lj40UUlG7w9AQa6Baq-_PQ/lGVfwMRpivX-b_epT8wY5Ds89P8CDw01q_7gIXSarBHVkPX_T_ltfa49t3wUUkgJd3OE95tmwZen-_mUYtVcvRy39N5Ky-CBPWLo5A6zvCBVcqudTcOx7aGPS63O3zan-Xx4UlOJIxkxYErMhhtKkw/57-dF4gjqmuk3wSS7V2EYs2IdZpqvZTeM2R99Lyu0CI)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "reccR1ahYAWxZxjbu",
+      "fields": {
+        "Organization": "West Virginia Medicaid Management Exclusion List",
+        "State": "West Virginia",
+        "URL": "https://www.wvmmis.com/WV%20Medicaid%20Provider%20SanctionedExclusion/Forms/AllItems.aspx",
+        "Logo": "Screenshot 2024-02-07 at 2.30.38 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/ar3ZJ1u41LkObe6vm-zqJQ/aFVus3DTa6zrp3VPl7vAz3WJmPl_YpOwIH1aLNureq3BCujHcomAI3whW8j6MvFqHai75Ssxfq_zl3xg4egYAhRy1dablkhqPaHVZElivyDSF6vKnOm2M2M0ANRXE5E1VNMd8u5VzLE1IhmCfS2SRD2llUHoQIaGpGM3_CgwHYs/KrdLeKWJbne_fiQHHE9XRjTDijK5NBZtXBZD87j0oL4)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "reco3nypLpjcdZ8IS",
+      "fields": {
+        "Organization": "Wisconsin Medicaid Exclusion List",
+        "State": "Wisconsin",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recbaaVQAypQKqZu4",
+      "fields": {
+        "Organization": "Wyoming Department of Health Medicaid Exclusions List",
+        "State": "Wyoming",
+        "URL": "https://health.wyo.gov/healthcarefin/medicaid/",
+        "Logo": "wy-exclusions.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/5azeVw5_sWI6LjMZYtHKEQ/3UD07VBXKxCXvgJI0BOVSmA4nXMSHnX6lnu0qGct-i2OSLtVpp9I4Gal2Fsg6LRZIocLWWtpGj9T5SMd1zi6tXfIcw2cYTdJ9_CQ58P5Jqm3wzTIrZmrkru_Y7zyUUXYSq8168927g2eOYEYRTl9cA/v0DZ9PE36H60VrRbl8C2rYB4YCD-whOrd4-b2-GC-9c)"
+      },
+      "createdTime": "2023-07-13T16:00:28Z",
+      "table": null,
+      "linkedTables": null
+    }
+  ],
+  "offset": "itrt8ePTEJG85puSG/recLodKrRjrsd7W3f"
+}

@@ -1,0 +1,641 @@
+{
+  "records": [
+    {
+      "id": "recAj3dllKp4Y4rxR",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Alabama",
+        "URL": "https://abme.igovsolution.net/online/Lookups/Individual_Lookup.aspx",
+        "Logo": "Screenshot 2024-02-08 at 12.04.51 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/8dWkyfpe-Q-7Qb7wWbJONQ/KbjDflxCkzPUwsQV2PV_nL5oCD06q8ws6_sf2NMULOCpqG8NVRRT2BaTxyF7QuG35aZXM914YCQekA646PatE4JUSjywLM_o7-h4cSUYP9pGSOJDog_2sICtnUaYtMUTJg4cico2bBPBwZ-SoSw8mrBPBfMd2KN5ZVFunBAv9_c/pSa_2NKDAbJ45PI6vIGHD5yXi9C3zrt_HWtYH4V2V20)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recC0SPrLFVBEPjDB",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Alaska",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:04Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recLkoSnsKipDm4nP",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Arizona",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recw56sDR7gmuuU4K",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Arkansas",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recmJPGODsNJumU3s",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "California",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recRtaoiInOuq0a4F",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Colorado",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec3adLNeZXoxbcIl",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Connecticut",
+        "URL": "https://www.elicense.ct.gov/Lookup/LicenseLookup.aspx",
+        "Logo": "Logo_CT_ENT.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/ayqJJclXcmkyEXYw18i6vA/f2acNGahRNNb6zOTv5AbzjMiIall71vrxSZmqMZLlxwS5Z3DiaTyl2pKjGeZILRnCUh5fftXOZAPI_6pP4I08HNPNV-4IszlNTjQ-tDB9gWaJu8kY_YDLBPOFQ1IOWVrr_yHK8GMl5mggaz7QkHFGA/iZYDKkbPjFTYUTlvgPo2E5rhMVme5iUebMZ00lHt1mQ)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recutNj3H1Guv9lmp",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Delaware",
+        "URL": "https://delpros.delaware.gov/OH_VerifyLicense",
+        "Logo": "delawareLogo.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/FRu3yBHS9d4f2zbCF2gUrw/19A7zuakq4MiamNpsNKfHlUN-5w-vObs6zRG8ivipr16zfAkYe4Zlc9iGZ-8kolfguYDcAXZ_8xICLk_EV37KgnDub-GXtAL3zbbhqCnZzkwOmRhHw1Pp169txWTYTs9U4JqBE9volKCc-ix53q7ZA/yNGq4o3wLNhmFWMIXNcMQqMTBGCWtXyj3VZ8P7gLdOQ)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recuhq5WwPALB2BH9",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "District of Columbia",
+        "URL": "https://dohenterprise.my.site.com/ver/s/",
+        "Logo": "Screenshot 2024-02-08 at 12.06.59 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/iwMo0ZgDH_bK5NkCOIDi6Q/yr-nTSf9gbqr0H__DAys-f6bvXSoWls2igUmjVp1OyQ_IF8ln2xGdxxUZVxhG5J1jm8sFbyVKjHELuoxgwjvVx1F34SgMKyTu3wa_CsogxUi2gES5cTuYk8wMFxhNHT-RD17iEA7ZybxT63HoDzIjg__3GEOuuA3V2XJ90wsj6c/2EO7gF_5jX89eiAOcgSYMzcdz0wflToewXstZiCgcUk)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recqy5tLAKFAMwjPe",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Florida",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recoDSYOfOv2HXstA",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Georgia",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recuPECuL3HyGjaae",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Hawaii",
+        "URL": "https://mypvl.dcca.hawaii.gov/public-license-search/",
+        "Logo": "hi logo.webp (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/VSaTPtahkF1cl5LHMNOFWQ/LWeGtl5JbNtyPiGNupEjHi7LGVZWuzuHek00KJX8r9GinYzdatM94wFhiCtKKL-V5MNuAcO-dRTqoggeH4FA1SYVv_P6I9-rOwDo4gHhdnnJ8IjcBScW5KpRNwJBvOI1K7kQaV92ETLvVn7n4hYebg/8fkXq2NIvgbeNh_17o0XZtFxpxGUxzJ_OI6NxW1LAkQ)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec8A2cm4vNbWd1nF",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Idaho",
+        "URL": "https://idbop.mylicense.com/verification/",
+        "Logo": "Screenshot 2024-02-08 at 12.00.30 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/bVI_HDmH7E3BUf3jBqAk3Q/smzJID5yozngYahyVKN9tHXfeDSmLjpyErm2KbtCxW9HgQiGk0hvTMbKGsYLIEuKPXZ8oGpqprm5OqIQf2yTxmaQEJ7XZc5TQvZDqfgP1o_yeemZYN_Fu2e3kWUNPxbHpZqdwCHZmBx3b06UDkZDmLL5YVLILL4aT4i0tZLHGTg/OWWVN2dsS6S71o9IWNsbnY670tZxkAj0cK9t3bEtmU8)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recRjMp6FezvTPfvB",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Illinois",
+        "URL": "https://online-dfpr.micropact.com/lookup/licenselookup.aspx",
+        "Logo": "Logo_IL_DFPR.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/AkurgyhcN_rmQQ6IzD-zYA/rvUDQ176uINmMWaKOlxeQkSjIUbTyugtO0gVtMIoohjolF9Yce-Ake96ABZh9KN0loPGIkfqKqodHrBMM3wn4aEdBeCOEoHLjzr1nLIm_nYsfaZMbIs8T0MAVvsL8tVIvbB1kZnoh5KqyAFn1NzBcw/nrsuCqCc9Tei-B9q71Lfgri4hLJRml7P0VPMVAobxVc)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recogCWJXiQ1SzbEB",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Indiana",
+        "URL": "https://mylicense.in.gov/EVerification/Search.aspx",
+        "Logo": "Screenshot 2024-02-08 at 12.02.36 PM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/94m0y3VNA-iUhSWcxtW6zw/reyZsiTepOcCqf3kxn3JwXs5GniuMH0CshHevqqeZVx0x2x7wGCd5iBq0dAMelvMAxmh2V3NBuu3peTcTpE-T8Yi9s53_8FDgYZVsoByE-q2tHAMvv3aI5D_mIoYzvfqji0mYni8-_AcDXQRVvSM9yVMAZCC0WEoicCWRaiX-mk/ymDypjigZfnSheB-udkp96sxZ-dBH3uVkoxZ3s1CoVc)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recfDExtPrcImjIRB",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Iowa",
+        "URL": "https://ibop.igovsolution.net/online/Lookups/Lookup_Individual.aspx",
+        "Logo": "Screenshot 2024-02-08 at 11.55.55 AM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/ymknPFgscqKMOQR70BdUZw/vmQv6OXi7z_WiaEomkVtLHxNYiQK6bPeCjEza8InAa3LlTESEoHPRdngmLyC8CE-BdObYwQYBCliwL1vj1zLLq0oC_X3UXbO6NQ4-we-aFvYUCN5TpkgltKP--DF2bBHAAQRlZ-1DyP7tnbZQqk_TOnfwgCu8b8RgXH6jKIqzUo/knh8NQSSGFRcEsKEfb4L37E_exfLVHkesSHHzhKfP70)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recVKileeuEIdfbln",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Kansas",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recR4BTo48Jc2oiLn",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Kentucky",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recels3WksEBhVbQb",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Lousianna",
+        "URL": "https://secure.pharmacy.la.gov/Lookup/LicenseLookup.aspx",
+        "Logo": "Logo_LA_BOP.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/kCkBMpWBZz9fKtPmmKcGvA/ckK5nXE9XtTaafQ87LrqgQskTY-LdAh8QwN39zCQ_W9z1Elyb2WvFNamkM8mNKHKU8p7Twowoysv726sZ5vS9T8Wu-DKvfO5IgJYd4XpCGWe9ApLAg95VmrcIxQY5SnlCE3XhSWfMOzFU4aRGkLwUA/G-xeKMV3OLC-zO116eq0cIAFZZr9PZI5T5_wgz3b1NU)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec4UDiqNifcWrSx8",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Maine",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recLFqRenQvVlJilS",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Maryland",
+        "URL": "https://cdssearch.health.maryland.gov/cdssearch/",
+        "Logo": "mdgov-logo-2018-black.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/YGCg1ICXb_roe4J9DdfdHA/__CNUVKLQkufnISYwvlGBmBMLUPb8QJqxPldrLMUoY-9FB6J9V5bZT0YtIiHn74Sldr1SVqm9lCn7L3fVrRgX0gDk0Rv-WIu6VLXAa4ajGZQDNhhp1QFtvbvp44Ku1ynVklOPjWWmCPXhZIAir_4NUa008eLMYcf2U0KKZ4voXk/o_Uke_qKpaTzuhWMIjgnRJkFysty2RQUe7F3Yg_JRFM)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recydEnUtNzASxkrC",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Massachusetts",
+        "URL": "https://madph.mylicense.com/verification/Search.aspx?facility=Y",
+        "Logo": "ma logo.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/ZOUuH6s0hCaBDak3a1mY0Q/bG0SeEzVu0DzopsdNChkPcdK35xC6Tiw5c_Y-0JrQzSPO9MMnxK-gEmMJCV0mODWuCxWaEYKSGucn16Om-mIhOj_QG2Kf6OsLCG6q00e9400BbJrXa8aghlnWjXS9epIwGDEqRripgBRlro7zR0RPw/m02jFPXiHAdZK1gqLEFkQlmFyzvr31139O1sA1dc4uA)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recChfQjxvvGrZwVS",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Michigan",
+        "URL": "https://aca-prod.accela.com/MILARA/GeneralProperty/PropertyLookUp.aspx?isLicensee=Y&TabName=APO",
+        "Logo": "mi logo.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/n1eHW48pxf3Si99fEjMnfQ/3CSa7mcrbQJVlYiwcafglbF3XuJDcCdnp4VboQCpJ_Kuqwy8uX5VCPTCVPs6vMpFEmZ0mWvYBnSSYvQIRB05bYVRJWuMQI8PTcJXxe5Z5V7vmFZK2-0jOVioHewWAUjR1RorWBS8bWIPQ9tt_Ilujg/eqhnzI0LocirJfoQJ8sR8CmA1Zqb96WMpjtgEg5on58)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rechZOwJdEmTXUBtJ",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Minnesota",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec967sqP6ogU4Syu",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Mississippi",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recSWN9kvmbSStIYH",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Missouri",
+        "URL": "https://healthapps.dhss.mo.gov/mohworxsearch/RegistrantSearch.aspx",
+        "Logo": "mo logo.jpeg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/_wzhwoT5-C8sQVoNBM99bA/D3AWxKfqZl7QxgxoUWLOfrmhFhl6ER3E7ExLLUbu4yRvEl3LC06CWJ0bg5lUEx4m-qC0RfhJEmhSnx22703w0LFs0F_pr-EdxqbfL8-5Y_lWdgVFlXZUGPhwIcj_0r3Ywwgo2N8bbfyTEexm8CxK1A/hlt90h-zdcAPDOaphGKVtbk1Q1-JDF7eJCNVv2B_25E)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recBg6dZiGQtQ9wAr",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Montana",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recJNQygpN3m4Pp0C",
+      "fields": {
+        "Organization": "National Controlled Substance Lookup",
+        "State": "National",
+        "URL": "https://apps.deadiversion.usdoj.gov/webforms2/spring/validationLogin?execution=e1s1",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "reccxksc4CEY6wZwx",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Nebraska",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec8OsCnew7Ux2sYb",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Nevada",
+        "URL": "https://online.nvbop.org/#/verifylicense",
+        "Logo": "nvpharmacy-logo-online.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/1trbPOrcRHIkikwtTQaFuQ/iaG6498CSLVBn_oNHArG3suGlEYt0Zjs9FNbW_3VnJMmPb4lmT14tOTTW0B0sHBsu3Z0QQI4dhqZYCVjZQfyiPxlqmSGanhMJw8R2eR-itZ4DuiQ5Dt1DMNC7VGyKp_GE0k0zeT-6zSLoiKmYggwksF6ooO-hIeHzrtvTLX5AHk/PUlpAAXQibZqoawTvSVQ9RtEGxfW45NBow44LS3bGrc)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "reczGVQ9jEOgGlK1M",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "New Hampshire",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recVuxYLlyvFpAgMO",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "New Jersey",
+        "URL": "https://newjersey.mylicense.com/verification/Search.aspx",
+        "Logo": "nj cds.jpeg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/i_UE_N4KZTe3WLN0n-kUSg/WivBoRdy4yDRBCZkGxN7Vcqayqao3nmj2LxZ2WdAtdRxrKhimnzG1-yLJgcvGBTu-4jUxstnYmvl0SMrfdVaooqorJoRU0jHxFn7RiD27ov6EuC9q8QrWCQCSlmR7DO1OovPSEyi4QoSUTD_BKrEFw/3RqlR9DolInnMYSVodgQubJHeVytTZsOc2m7zjHZ_AI)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recdh5f1SCN8k3nKq",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "New Mexico",
+        "URL": "https://nmrldlpi.my.site.com/bcd/s/rld-public-search?language=en_US",
+        "Logo": "Screenshot 2024-02-08 at 11.54.26 AM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/RtscFvZDDptBCwrmBRIrsw/xMf5XzhZtdG2Tgy8Kdv4L_Aze5V-0jez41QJvMfP1p7ZFW6gF270NkjDkhiKEgnzIrqemXgNur4luMqrwSv14DzHlv65mfXWTmBNpiekMcYtbq7qhvmWTzGrZ63N7JZbKt44zDBi-oum_UYdcpp9bOIr-1qx_UJnp194jKoV5DY/3kghSv9EluB_o9C127qPSLTIStQBEsSSk0NvxOQx_m4)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recS6Jd3amW1KkwN9",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "New York",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recnhk24gS846vSyK",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "North Carolina",
+        "URL": "https://portal.ncbop.org/verification/search.aspx",
+        "Logo": "nc logo.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/2ZWigSkuSZXSqloOdEWk5w/4EEvYyom85VxkuoxF93V7I1Ht-uQCvv053psAL7S61j1h32xNCHCFJbwrxHMsuK8aqj8VdhYQ7mv8pLt8Va5tnYrJyRIJO4IWe3xzrk0B-MoBtL10hEBMJJ4vR0i315Ut2OeGSXgRRbpzueI7ClPcA/c6LyaLKnTTyKt436_4ag-Ky44Xdb3VkQvlaz_lmTyNg)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recwM2a8vNNPwMioZ",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "North Dakota",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recjISkGxGTBlyyzF",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Ohio",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recktgnXQaW6P5efu",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Oklahoma",
+        "URL": "https://obnddc.us.thentiacloud.net/webs/obnddc/register/",
+        "Logo": "ok cds.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/mhMIditsggOHiktAp82KrA/IUSzCAlnAFq3TwMENUUN6DncApuaj8MQUt7lofQgiDQ4cPTZQnyQggW_DroD-Ht60kEAH7wX78CmAlp1hy-9u6AEUlHN2_vvoAPgb7R2iYsXqrBS7JVyflfusSxWAsDDob3fKPC7Yh_wu-wIydb50Q/plUrnrkeHYcYJNTqTLJYGB1LPcb5xdcEvoWgLMMEQGk)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recUzxfx6uKOlkBNm",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Oregon",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rechJs0BjRvCInRyW",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Pennsylvania",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recaDPACDjuz7rlJN",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Puerto Rico",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recvkckBXJcWfGJno",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Rhode Island",
+        "URL": "https://healthri.mylicense.com/verification/",
+        "Logo": "ri logo.jpeg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/uqYM6CuK78UXpT9Ov8i0pQ/XE57ohh_8Wu78wnXWIZnX1UpJ1wzyjsoteNbPjNdWQwiDb77pAemJWiLb9G8sduNVJYNyMZPOlHf2KXMU4Mnq9bakAATaE_vVQn2xwWoBb3Oe5HwnPF2rZ_5sPjSTos7hC6ocB9lkegmP6-k1ur1dA/8TheHzDAS60oBZ1XVZ7A-XQpO_Pxp8_y0RIffA1dL40)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recJ7OJWouJVlu1bt",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "South Carolina",
+        "URL": "https://apps.dhec.sc.gov/DrugControl/Licensing/Home/Verify",
+        "Logo": "sc logo.jpeg (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/uxf3tTMtKF2s3QSf301kow/zP2LjfH0WG_ZceQdn5hQErkpvcrMJjuZ39KXRpyhQ6m9ncyn43r0-36icwgOnTAWURyuOfmcw5xuQNlHWAAJANV_VDBoFPxqJUuu0gJztMOvi44Iv3ufeIo04NyqZe5d4Q70TsD77d4q9ETNQnLEJA/BFNQFOQQ4xBwSDa8LX0qrul7U965rI7VPsohaNqWCek)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recQT7z1hI9MhVySP",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "South Dakota",
+        "URL": "https://apps.sd.gov/PH04ControlledSubstance/validation/ValidationSelector",
+        "Logo": "sd logo.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/t_1DQ17m3O8jwYMF-6KzYQ/CAHb_ibJmS4Oo5x6F8Qpm2rHjswOnHq931ixsC8Nzj0jxb_gB3rHS8TduYG34ZUk6fdVS8xskAre7kRfB08Oqsuv37c7uYD2HQlvn7HSznn8lXddm46srIzY4aVutWhYq5-n7GbbU19w0PVGv7v0Vw/63Fp8VWai7tPOTO4rP6aWFCi-SHiV1F3dQhUHxCj3rM)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recmzx8YlYR5p2XPt",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Tennessee",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec0jdqMATJnG6XHb",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Texas",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recMQKTUFSw1IOTQA",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Utah",
+        "URL": "https://secure.utah.gov/llv/search/index.html",
+        "Logo": "Screenshot 2024-02-08 at 11.57.29 AM.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/hRc33rAd8dXzHK7dC2FRcA/gdzdpHzPbRk1CP_sczLJ99ix2KesxPaYjNoYkc9qFJSo96ltO3dYiZzg9CgIgitmkGeTgYwoFn3l6YBMBcKuCTtg1uxRhN2gpRn6727h6j8ZcEzIajErMvrsshWPvkyrKrgfS6GGSjwGY6mjPEq1NKJERa22NdMoC6NCMNHxF8c/zmlv-vnWgtPHLDLcDQD7V8_OLysOwh4RlfAp09ijIa8)"
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recUYhy6BZ7rTSm6I",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Vermont",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recF1nWTyUyEnomj0",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Virginia",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "reccGbWSCTOjHkMNV",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "Washington",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "recnjYxKZVwyruFrt",
+      "fields": {
+        "Organization": "State Level Controlled Substance Not Required",
+        "State": "West Virginia",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec58HvHjbBeDeOpM",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Wisconsin",
+        "URL": "",
+        "Logo": ""
+      },
+      "createdTime": "2023-08-09T15:23:11Z",
+      "table": null,
+      "linkedTables": null
+    },
+    {
+      "id": "rec2A92Kx3Gc8pyLG",
+      "fields": {
+        "Organization": "State Level Controlled Substance Lookup",
+        "State": "Wyoming",
+        "URL": "https://wybopprod.glsuite.us/GLSuiteWeb/Clients/WYBOP/Public/Verification/Search.aspx",
+        "Logo": "wy logo.png (https://v5.airtableusercontent.com/v3/u/27/27/1712779200000/DMPUomG7Erm2Fe3c3eWLDw/KFVzg__4puJiV06XMFzIQOcZqRiWp3WRzUBErnL6C4eV89Yn6H_Uv-g9ONAZfTMQcdo6f8Xa2y3lBxU-xbfPu1kCWDpzPmaRhRWqjZp00WQ7ZmFmFIihwjGYRkfNZ989q75Q23ULcihClU3lWFEBAQ/Tl2Vg3bA8_j95w5dON9yXJ2bm__kTWkRV3dqMpNpnjk)"
+      },
+      "createdTime": "2023-08-09T15:51:05Z",
+      "table": null,
+      "linkedTables": null
+    }
+  ],
+  "offset": "itryoEUn1pTNroWMq/reccGbWSCTOjHkMNV"
+}
