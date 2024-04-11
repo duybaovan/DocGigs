@@ -35,14 +35,12 @@ const DocUploadPage: React.FC = () => {
   const [verificationComplete, setVerificationComplete] = useState(false);
 
   const stepsData: VerificationStep[] = [
-    { label: "Verify medical credential", status: "pending" },
+    { label: "Extracting data from file", status: "pending" },
     {
-      label: "Cross-check educational records",
+      label: "Looking across 3000 databases",
       status: "pending",
     },
-    { label: "Verify malpractice document", status: "pending" },
-    { label: "Validate resume", status: "pending" },
-    { label: "Check all Expiry Dates", status: "pending" },
+    { label: "Gathering Primary Sources", status: "pending" },
   ];
 
   useEffect(() => {
@@ -51,7 +49,7 @@ const DocUploadPage: React.FC = () => {
     if (open) {
       timeout = setTimeout(() => {
         setVerificationComplete(true);
-      }, 750 * 6); // 6 steps including the initial loading indicator
+      }, 2 * 3); // 6 steps including the initial loading indicator
     }
 
     return () => {
@@ -68,6 +66,7 @@ const DocUploadPage: React.FC = () => {
     "Immunization records",
     "Resume",
   ];
+
   const uppy = new Uppy()
     .use(Webcam)
     .use(RemoteSources, {
@@ -138,7 +137,7 @@ const DocUploadPage: React.FC = () => {
           <CardFooter>
             <Link
               className={buttonVariants({ variant: "default" })}
-              href="/doc_form_filled"
+              href="/home/doc_form_filled"
             >
               {" "}
               Continue{" "}

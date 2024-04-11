@@ -107,6 +107,8 @@ const ProviderCard: React.FC<{ provider: Provider }> = ({ provider }) => {
           {provider.name}
           <div>
             <Button className="ml-auto mr-4">Save to PDF</Button>
+            <Button className="ml-auto mr-4">Change Template</Button>
+
             <Button className="ml-auto mr-4">Edit Profile</Button>
             <Button className="ml-auto">Next</Button>
           </div>

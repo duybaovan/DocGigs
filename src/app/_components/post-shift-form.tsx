@@ -27,7 +27,7 @@ export const PostShiftForm: React.FC<PostShiftFormProps> = ({
   postShiftTap,
 }) => {
   return (
-    <Card className="mx-auto mt-12 max-w-lg p-12">
+    <Card className="mx-auto mt-4 max-w-lg p-4">
       <CardHeader>
         <CardTitle> Post a Shift </CardTitle>
       </CardHeader>
@@ -111,18 +111,6 @@ export const PostShiftForm: React.FC<PostShiftFormProps> = ({
                 </Label>
               </div>
             </div>
-          </div>
-          <div className="mb-4">
-            <Label className="text-sm font-medium text-slate-700">
-              Additional details
-            </Label>
-            <textarea
-              id="additionalDetails"
-              name="additionalDetails"
-              rows={4}
-              className="mt-1 block w-full rounded-lg border border-gray-300 p-2.5 text-sm focus:border-blue-500 focus:ring-blue-500"
-              placeholder="Any additional details"
-            ></textarea>
           </div>
         </form>
       </CardContent>
